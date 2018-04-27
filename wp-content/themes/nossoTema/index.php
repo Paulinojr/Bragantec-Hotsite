@@ -11,10 +11,26 @@
 </div>
 
 <div class="row noticias">
-	<div class="three columns"></div>
-	<div class="three columns"></div>
-	<div class="three columns"></div>
-	<div class="three columns"></div>
+			 
+<?php 
+	if (have_posts()):
+		while (have_posts()): the_post();
+?>
+	<div class="three columns">
+		<h1>
+			<?php
+				the_title();
+			?>
+		</h1>
+		<p><?php the_excerpt();?></p>
+
+	</div>
+	<?php
+		endwhile; 
+	endif
+	?>
 </div>
+
+
 
 <?php get_footer(); ?>

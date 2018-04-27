@@ -10,7 +10,7 @@ header{
     height: 250px;
 }
 footer{
-	background-color: lightgreen;
+	background-color: rgb(177, 9, 6);
     bottom:0;
     position: inherit;
     width:100%;
@@ -95,7 +95,14 @@ nav.primeira ul ul li{
  	background-color: lightgrey;
  }
 
+ #menu{
+ 	padding-left: 80px;
+ }
+
  /* Acessibilidade da Letra */
+#acessibilidadeLetra{
+	padding-right: 50px; 
+}
 #acessibilidadeLetra div{
 	background-color: rgb(239, 100, 33) ;
 	display: inline-block;
@@ -110,6 +117,7 @@ nav.primeira ul ul li{
 #aF, #dF{
 	text-align: center;
 	color: white;
+	font-weight: 900;
 	cursor: pointer;	
 }
 /*Divs de noticias*/
