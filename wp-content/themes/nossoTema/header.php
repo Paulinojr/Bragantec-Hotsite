@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/normalize.css" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/skeleton.css" type="text/css"/>
 
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
 

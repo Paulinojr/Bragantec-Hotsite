@@ -1,6 +1,7 @@
 
 $(document).ready(function () {
     var fonte = 10;
+    var img;
 
     /***********Aumentar e diminuir letra**************/
     $("html").css({
