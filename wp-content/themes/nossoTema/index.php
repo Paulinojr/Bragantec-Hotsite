@@ -31,6 +31,8 @@
 	?>
 </div>
 
-
+<div id="contato">
+	
+</div>
 
 <?php get_footer(); ?>

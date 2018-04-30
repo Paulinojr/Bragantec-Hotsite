@@ -21,22 +21,47 @@
 		<div class="four columns footerDivs">	
 			<h6 style="font-weight: bold;">REDES SOCIAIS:</h6>
 			<div style="padding-left: 20px;">
+				
 				<a href="#" style="text-decoration: none;" > 
-					<div class="twelve columns">
+					<div class="twelve columns displayRedes">
 						<input type="image" id="face" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.PNG"  /> 
 						<div class="one-half column redeSocialNome">Facebook</div>
 					</div>	
 				</a>
-
-				<a href="#" style="text-decoration: none;" > 
-					<div class="twelve columns">
+				
+				
+				<a href="#" style="text-decoration: none;"> 
+					<div class="twelve columns displayRedes">
 						<input type="image" id="insta" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png"  /> 
 						<div class="one-half column redeSocialNome">Instagram</div>
 					</div>	
 				</a> 
+				
 			</div>
 		</div>
-		<div class="four columns footerDivs">four</div>
+		<div class="four columns footerDivs desenvolvedores">
+			<h6 style="font-weight: bold; margin-top: 10px">DESENVOLVEDORES:</h6>
+			<div style="padding-left: 20px;">
+				<div class="twelve columns">
+					<div class="imgDesenvolvedores">
+						<div class="two columns"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bia.jpg" /></div>
+						<div class="ten columns" style="padding: 25px 0 0 30px">Beatriz Miranda</div>
+					</div>
+				</div>
+				<div class="twelve columns">
+					<div class="imgDesenvolvedores">
+						<div class="two columns"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/laura.jpg" /></div>
+						<div class="ten columns" style="padding: 25px 0 0 30px">Laura Chaile</div>
+					</div>
+				</div>
+				<div class="twelve columns">
+					<div class="imgDesenvolvedores">
+						<div class="two columns"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/paulino.jpeg" /></div>
+						<div class="ten columns" style="padding: 25px 0 0 30px">Paulino Junior</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </footer> 
 

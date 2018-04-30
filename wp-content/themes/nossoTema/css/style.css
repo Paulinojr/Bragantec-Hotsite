@@ -9,23 +9,6 @@ header{
     width: 100%;
     height: auto;
 }
-footer{
-	background-color: rgb(177, 9, 6);
-    bottom:0;
-    position: inherit;
-    width:100%;
-}
-.footerDivs{
-	padding: 20px 70px 20px 70px;
-	color: white;
-}
-.footerDivs ul li{
-	display: list-item;
-	border-bottom: 1px solid white;
-	list-style: none;
-	padding: 10px;
-}
-
 
 .conteudo{
 	border:solid black 1px;
@@ -130,7 +113,7 @@ nav.primeira ul ul li{
 #aF, #dF{
 	text-align: center;
 	color: white;
-	font-weight: 900;
+	font-weight: 700;
 	cursor: pointer;	
 }
 /*Divs de noticias*/
@@ -143,6 +126,24 @@ nav.primeira ul ul li{
 	height: 200px;
 }
 
+/*  Footer  */
+footer{
+	background-color: rgb(127, 9, 6);
+    bottom:0;
+    position: inherit;
+    width:100%;
+}
+.footerDivs{
+	padding: 20px 70px 20px 70px;
+	color: white;
+}
+.footerDivs ul li{
+	display: list-item;
+	border-bottom: 1px solid white;
+	list-style: none;
+	padding: 10px;
+}
+
 /*Redes sociais no Footer*/
 .redeSocial{
     height: 30px;
@@ -152,4 +153,29 @@ nav.primeira ul ul li{
 .redeSocialNome{
 	color: white;
 	font-size:16px;
+}
+.displayRedes{
+	padding: 10px;
+	padding-top: 20px;
+}
+.displayRedes:hover{
+	background-color: rgb(177, 9, 6);
+	color: black;
+}
+
+/* DESENVOLVEDORES */
+.desenvolvedores{
+	padding: 10px;
+}
+
+.imgDesenvolvedores img{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-filter: blur(0.8px);
+}
+.imgDesenvolvedores img:hover{
+	opacity: 1;
+	box-shadow: 0 0 2px 1px rgba(177, 9, 6);
+	-webkit-filter: blur(0px);
 }
