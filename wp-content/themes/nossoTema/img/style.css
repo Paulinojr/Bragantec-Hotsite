@@ -172,6 +172,7 @@ footer{
 	width: 95px;
 	height: 95px;
 	border-radius: 50%;
+	/*-webkit-filter: blur(0.8px);*/
 	opacity: 1;
 	transition: .5s ease;
   	backface-visibility: hidden;
@@ -184,28 +185,15 @@ footer{
 
 .middle {
   transition: .5s ease;
-  opacity: 0;
+  /*opacity: 0;*/
   position: absolute;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  margin-left: 5px;
+  -ms-transform: translate(-50%, -50%)
+
+
   top: 50%;
-  left: 43%;
-  color: white;
+  left: 50%;
+  color: black;
   font-size: 15px;
   padding: 16px 32px;
-}
-
-.imgDesenvolvedores:hover img {
-  opacity: 0.3;
-}
-.imgDesenvolvedores:hover {
-	border: solid 1px white;
-	width: 95px;
-	height: 95px;
-	border-radius: 50%;
-}
-
-.imgDesenvolvedores:hover .middle {
-  opacity: 1;
 }

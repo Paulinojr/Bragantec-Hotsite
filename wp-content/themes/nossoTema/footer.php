@@ -42,22 +42,28 @@
 		<div class="four columns footerDivs desenvolvedores">
 			<h6 style="font-weight: bold; margin-top: 10px">DESENVOLVEDORES:</h6>
 			<div style="padding-left: 20px;">
-				<div class="twelve columns">
+				<div class="four columns">
 					<div class="imgDesenvolvedores">
-						<div class="two columns"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bia.jpg" /></div>
-						<div class="ten columns" style="padding: 25px 0 0 30px">Beatriz Miranda</div>
+						<div style="position: relative;">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bia.jpg"/>
+							<div class="middle">Beatriz Miranda</div>
+						</div>
 					</div>
 				</div>
-				<div class="twelve columns">
+				<div class="four columns">
 					<div class="imgDesenvolvedores">
-						<div class="two columns"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/laura.jpg" /></div>
-						<div class="ten columns" style="padding: 25px 0 0 30px">Laura Chaile</div>
+						<div style="position: relative;">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/laura.jpg"/>
+							<div class="middle">Laura Chaile</div>
+						</div>
 					</div>
 				</div>
-				<div class="twelve columns">
+				<div class="four columns">
 					<div class="imgDesenvolvedores">
-						<div class="two columns"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/paulino.jpeg" /></div>
-						<div class="ten columns" style="padding: 25px 0 0 30px">Paulino Junior</div>
+						<div style="position: relative;">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/img/paulino.jpeg" />
+							<div class="middle">Paulino Junior</div>
+						</div>
 					</div>
 				</div>
 			</div>
