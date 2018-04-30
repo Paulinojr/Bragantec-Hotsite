@@ -4,9 +4,7 @@ $(document).ready(function () {
     var img;
 
     /***********Aumentar e diminuir letra**************/
-    $("html").css({
-        fontSize: 10
-    });
+    $("html").css({fontSize: 10});
 
     $("#aF").click(function () {
         if (fonte < 17) {
@@ -22,7 +20,7 @@ $(document).ready(function () {
         }
     });
     /**************************************************/
-
+    /*Menu fixo apartir da imagem*/
     $(function(){   
         var nav = $('#menu');   
         $(window).scroll(function () { 
@@ -32,6 +30,17 @@ $(document).ready(function () {
                 nav.removeClass("menuFixo"); 
             }   
         });  
+    });
+    /**************************************************/
+    /*link interno no menu, scroll leve*/
+    $('.primeira a[href^="#"]').on('click', function(e) {
+        // prevenir que o link funcione da forma padrão que no caso seria "pulando" para o elemento com o id
+        e.preventDefault();
+        //variável id com o valor refentente ao link clicado
+        var id = $(this).attr('href'), targetOffset = $(id).offset().top;
+         $('html, body').animate({
+            scrollTop: targetOffset - 100
+        }, 500);
     });
 
 });

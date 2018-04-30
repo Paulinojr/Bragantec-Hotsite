@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Bragantec</title>
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" type="text/css"/>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/normalize.css" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/skeleton.css" type="text/css"/>
 
@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
 
 </head>
-<body>
+<body id="inicio">
 <header>
 	<div>
 		<img id="imgBanner" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner.png" alt="Banner da Bragantec"/>
@@ -22,8 +22,8 @@
 		<nav class="conteiner primeira ten columns">
 			<div class="sixteen columns">
 				<ul>
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Como Chegar</a></li>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#comoChegar">Como Chegar</a></li>
 					<li><a href="#">Bragantequinha</a></li>
 					<li><a href="#">Edições Anteriores</a>
 						<ul>
@@ -33,7 +33,7 @@
 							<li><a href="#">2017</a></li>
 						</ul>	
 					</li>
-					<li><a href="#">Contato</a></li>
+					<li><a href="#contato">Contato</a></li>
 				</ul>
 			</div>
 		</nav>
