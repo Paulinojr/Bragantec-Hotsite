@@ -95,6 +95,17 @@ nav.primeira ul ul li{
  	padding-left: 80px;
  }
 
+/*Menu Fixo quando vai pra baixo*/
+.menuFixo {
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	background-color: white;
+	width: 95%;
+	border-bottom: solid black 1px;
+}
+
+
  /* Acessibilidade da Letra */
 #acessibilidadeLetra{
 	padding-right: 50px; 

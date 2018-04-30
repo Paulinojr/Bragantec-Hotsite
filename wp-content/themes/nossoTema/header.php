@@ -37,7 +37,7 @@
 				</ul>
 			</div>
 		</nav>
-		<div id="acessibilidadeLetra" class="conteiner two columns">
+		<div id="acessibilidadeLetra" style="margin-top: 7px" class="conteiner two columns">
 			<div id="aF">
 				A+
 			</div>

@@ -22,4 +22,16 @@ $(document).ready(function () {
         }
     });
     /**************************************************/
+
+    $(function(){   
+        var nav = $('#menu');   
+        $(window).scroll(function () { 
+            if ($(this).scrollTop() > 235) { 
+                nav.addClass("menuFixo");
+            } else { 
+                nav.removeClass("menuFixo"); 
+            }   
+        });  
+    });
+
 });
