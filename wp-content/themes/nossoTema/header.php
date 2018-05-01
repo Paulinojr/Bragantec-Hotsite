@@ -24,13 +24,13 @@
 					<li><a href="#inicio">Inicio</a></li>
 					<li><a href="#comoChegar">Como Chegar</a></li>
 					<li><a href="#">Bragantequinha</a></li>
-					<li><a href="#">Edições Anteriores</a>
-						<ul>
+					<li><a href="#edicoesAnteriores">Edições Anteriores</a>
+						<!--<ul>
 							<li><a href="#">2014</a></li>
 							<li><a href="#">2015</a></li>
 							<li><a href="#">2016</a></li>
 							<li><a href="#">2017</a></li>
-						</ul>
+						</ul>-->
 					</li>
 					<li><a href="#contato">Contato</a></li>
 				</ul>

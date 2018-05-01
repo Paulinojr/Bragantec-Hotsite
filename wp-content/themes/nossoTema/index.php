@@ -67,5 +67,10 @@
 		</div>
 	</div>
 </div>
+<div id="edicoesAnteriores" class="row">
+	<div class="row">
+		<h3>Edições Anteriores</h3>
+	</div>
+</div>
 
 <?php get_footer(); ?>
