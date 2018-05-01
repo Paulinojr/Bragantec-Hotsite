@@ -5,7 +5,7 @@
 			<h6 style="font-weight: bold;">CONTATO:</h6>
 			<ul style="padding-left: 20px;">
 				<li>
-					Bragança Paulista - SP, Brasil  		
+					Bragança Paulista - SP, Brasil
 				</li>
 				<li>
 					ENDEREÇO: Av. Major Fernando Valle, 2013 - São Miguel - CEP: 12903-000
@@ -15,31 +15,31 @@
 					<span style="margin-left: 58px">braganca@ifsp.edu.br</span>
 				</li>
 				<li>
-					TELEFONE: (11) 98614-0930 
+					TELEFONE: (11) 98614-0930
 				</li>
 
 			</ul>
 
 		</div>
 		<!--********************** Redes sociais no Footer ************************* -->
-		<div class="four columns footerDivs">	
+		<div class="four columns footerDivs">
 			<h6 style="font-weight: bold;">REDES SOCIAIS:</h6>
 			<div style="padding-left: 20px;">
-				
-				<a href="https://www.facebook.com/bragantec/" target="_blank" style="text-decoration: none;" > 
+
+				<a href="https://www.facebook.com/bragantec/" target="_blank" style="text-decoration: none;" >
 					<div class="twelve columns displayRedes">
-						<input type="image" id="face" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.PNG"  /> 
+						<input type="image" id="face" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.PNG"  />
 						<div class="one-half column redeSocialNome">Facebook</div>
-					</div>	
+					</div>
 				</a>
-				
-				
-				<a href="https://www.instagram.com/bragantec/?hl=en" target="_blank" style="text-decoration: none;"> 
+
+
+				<a href="https://www.instagram.com/bragantec/?hl=en" target="_blank" style="text-decoration: none;">
 					<div class="twelve columns displayRedes">
-						<input type="image" id="insta" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png"  /> 
+						<input type="image" id="insta" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png"  />
 						<div class="one-half column redeSocialNome">Instagram</div>
-					</div>	
-				</a> 
+					</div>
+				</a>
 			</div>
 		</div>
 		<div class="four columns footerDivs desenvolvedores">
@@ -72,17 +72,16 @@
 			</div>
 		</div>
 	</div>
-</footer> 
+</footer>
 
 
 <!-- Links -->
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jScript.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.esm.bundle.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/js/swiper.min.js.map"></script>
 
 </body>
 </html>

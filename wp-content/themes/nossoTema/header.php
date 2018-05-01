@@ -2,14 +2,13 @@
 <html>
 <head>
 	<title>Bragantec</title>
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/styleCss.css" type="text/css"/>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/normalize.css" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/skeleton.css" type="text/css"/>
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.min.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
 
 </head>
 <body id="inicio">
@@ -17,7 +16,7 @@
 	<div>
 		<img id="imgBanner" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner.png" alt="Banner da Bragantec"/>
 	</div>
-	
+
 	<div id="menu" class="band navigation">
 		<nav class="conteiner primeira ten columns">
 			<div class="sixteen columns">
@@ -31,7 +30,7 @@
 							<li><a href="#">2015</a></li>
 							<li><a href="#">2016</a></li>
 							<li><a href="#">2017</a></li>
-						</ul>	
+						</ul>
 					</li>
 					<li><a href="#contato">Contato</a></li>
 				</ul>
@@ -42,10 +41,8 @@
 				A+
 			</div>
 			<div id="dF">
-				A-	
+				A-
 			</div>
-		</div>	
+		</div>
 	</div>
 </header>
-	
-

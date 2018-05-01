@@ -21,15 +21,15 @@ $(document).ready(function () {
     });
     /**************************************************/
     /*Menu fixo apartir da imagem*/
-    $(function(){   
-        var nav = $('#menu');   
-        $(window).scroll(function () { 
-            if ($(this).scrollTop() > 235) { 
+    $(function(){
+        var nav = $('#menu');
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 235) {
                 nav.addClass("menuFixo");
-            } else { 
-                nav.removeClass("menuFixo"); 
-            }   
-        });  
+            } else {
+                nav.removeClass("menuFixo");
+            }
+        });
     });
     /**************************************************/
     /*link interno no menu, scroll leve*/
@@ -42,5 +42,20 @@ $(document).ready(function () {
             scrollTop: targetOffset - 100
         }, 500);
     });
+
+    var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 'auto',
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }
+
+        });
 
 });
