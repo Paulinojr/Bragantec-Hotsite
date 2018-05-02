@@ -7,7 +7,7 @@ $(document).ready(function () {
     $("html").css({fontSize: 10});
 
     $("#aF").click(function () {
-        if (fonte < 17) {
+        if (fonte < 16) {
             fonte = fonte + 1;
             $('html').css({fontSize: fonte + 'px'});
         }

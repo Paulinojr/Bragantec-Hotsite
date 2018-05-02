@@ -6,13 +6,12 @@ header{
 	width:100%;
 }
 #imgBanner{
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .conteudo{
 	border:solid black 1px;
-	height: 300px;
 	margin:10px 70px;
 }
 
@@ -80,19 +79,19 @@ nav.primeira ul ul li{
 	list-style: none;
 }
 
- nav.primeira ul ul li a{
- 	display:block;
- 	line-height: 35px;
- 	text-transform: none;
- }
+nav.primeira ul ul li a{
+	display:block;
+	line-height: 35px;
+	text-transform: none;
+}
 
- nav.primeira ul li:hover>a{
- 	background-color: lightgrey;
- }
+nav.primeira ul li:hover>a{
+	background-color: lightgrey;
+}
 
- #menu{
- 	padding-left: 80px;
- }
+#menu{
+	padding-left: 80px;
+}
 
 /*Menu Fixo quando vai pra baixo*/
 .menuFixo {
@@ -104,7 +103,7 @@ nav.primeira ul ul li{
 	border-bottom: solid black 1px;
 }
 
- /* Acessibilidade da Letra */
+/* Acessibilidade da Letra */
 #acessibilidadeLetra{
 	padding-right: 50px;
 }
@@ -132,7 +131,6 @@ nav.primeira ul ul li{
 }
 .noticias div{
 	border: solid black 1px;
-	height: 200px;
 }
 
 /* Como Chegar Imgs*/
@@ -151,9 +149,8 @@ nav.primeira ul ul li{
 /*Conteudo - Contato*/
 #comoChegar{
 	background-color: rgb(5, 31, 49);
-	height: 400px;
 	color: white;
-	padding: 20px;
+	padding: 20px 20px 40px 20px;
 }
 #comoChegar h3{
 	color: white;
@@ -167,12 +164,17 @@ nav.primeira ul ul li{
 footer{
 	margin-top: 30px;
 	background-color: rgb(127, 9, 6);
-    bottom:0;
-    position: inherit;
-    width:100%;
+	bottom:0;
+	position: inherit;
+	s
+}
+@media only screen and (max-width: 768px) {
+	footer{
+		padding-left: 10px;
+	}
 }
 .footerDivs{
-	padding: 20px 0 20px 70px;
+	padding: 20px 0 20px 0;
 	color: white;
 }
 .footerDivs ul li{
@@ -181,18 +183,23 @@ footer{
 	list-style: none;
 	padding: 10px;
 }
-
+@media only screen and (min-width: 768px) {
+	#contato{
+		padding-left: 200px;
+	}	
+}
 /*Redes sociais no Footer*/
 .redeSocial{
-    height: 30px;
-    border-radius: 10%;
-    border: solid #fff 2px;
+	height: 30px;
+	border-radius: 10%;
+	border: solid #fff 2px;
 }
 .redeSocialNome{
 	color: white;
 	font-size:16px;
 }
 .displayRedes{
+	float:left;
 	padding: 10px;
 	padding-top: 20px;
 }
@@ -202,17 +209,20 @@ footer{
 }
 
 /* DESENVOLVEDORES */
-.desenvolvedores{
-	padding: 10px;
+
+.imgDesenvolvedores{
+	float:left;
+	width:90px;
+	height:90px;
+	border-radius: 50%;
+	padding-left: 10px;
 }
 
 .imgDesenvolvedores img{
-	width: 95px;
-	height: 95px;
 	border-radius: 50%;
 	opacity: 1;
 	transition: .5s ease;
-  	backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 .imgDesenvolvedores img:hover{
 	opacity: 1;
@@ -221,55 +231,54 @@ footer{
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  margin-left: 5px;
-  top: 50%;
-  left: 43%;
-  color: white;
-  font-size: 15px;
-  padding: 16px 32px;
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	margin-left: 5px;
+	top: 50%;
+	left: 43%;
+	color: white;
+	font-size: 15px;
+	padding: 18px 32px;
 }
 
 .imgDesenvolvedores:hover img {
-  opacity: 0.3;
+	opacity: 0.3;
 }
 .imgDesenvolvedores:hover {
 	border: solid 1px white;
-	width: 95px;
-	height: 95px;
+	padding-left: 0;
 	border-radius: 50%;
 }
 
 .imgDesenvolvedores:hover .middle {
-  opacity: 1;
+	opacity: 1;
 }
 
 /* Carrosel */
 .swiper-container {
-  width: 100%;
-  height: 80vh;
+	width: 100%;
+	height: 80vh;
 }
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
 }
 .inscricao{
 	background-size: contain;
@@ -303,6 +312,7 @@ footer{
 }
 
 /* Edicoes ateriores*/
+/* Height provisorioooo */
 #edicoesAnteriores{
 	height: 400px;
 }
