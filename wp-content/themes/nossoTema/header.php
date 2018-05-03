@@ -10,6 +10,9 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 	<header>
@@ -23,19 +26,14 @@
 			<div id="menu" class="band navigation">
 				<nav class="conteiner primeira ten columns">
 					<div class="sixteen columns">
-						<ul>
+						<label for="toggle" class="ten columns"><img class="img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/menu.png"  style="width:60px; height:60px;"></label>
+						<input type="checkbox" class="ten columns" id="toggle"/>
+						<ul id="menuResp">
 							<li><a href="#hero">Inicio</a></li>
 							<li><a href="#comoChegar">Como Chegar</a></li>
-							<li><a href="#">Bragantequinha</a></li>
-							<li><a href="#edicoesAnteriores">Edições Anteriores</a>
-						<!--<ul>
-							<li><a href="#">2014</a></li>
-							<li><a href="#">2015</a></li>
-							<li><a href="#">2016</a></li>
-							<li><a href="#">2017</a></li>
-						</ul>-->
-							</li>
+							<li><a href="#edicoesAnteriores">Edições Anteriores</a></li>
 							<li><a href="#contato">Contato</a></li>
+							<li><a href="#">Bragantequinha</a></li>
 						</ul>
 					</div>
 				</nav>

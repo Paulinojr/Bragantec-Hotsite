@@ -73,6 +73,8 @@
 	<div id="edicoesAnteriores" class="row">
 		<div class="row">
 			<h3>Edições Anteriores</h3>
+			<p/>
+			<h4>Em breve aqui!</h4>
 		</div>
 	</div>
 </section>
