@@ -178,12 +178,12 @@ body{
 	}
 	.comoSubmeter{
 		border: solid rgb(5, 31, 49) 1px;
-		box-shadow: 4px 4px 7px rgb(5, 31, 49); 
+		box-shadow: 2px 2px 7px rgb(5, 31, 49); 
 		padding:5px;
 		margin-bottom: 15px;
 	}
 	.comoSubmeter:hover{
-		box-shadow: 7px 7px 12px rgb(5, 31, 49);
+		box-shadow: 9px 9px 15px rgb(5, 31, 49);
 	}
 	.comoSubmeter div div{
 		float: left;
@@ -196,6 +196,7 @@ body{
 		cursor: pointer;
 	}
 	#infosResumo, #infosVideo{
+		background-color: white;
 		display: none;
 		padding: 20px;
 		font-size: 17px;
@@ -206,7 +207,7 @@ body{
 	}
 
 	#submissao{
-		padding: 50px;
+		padding: 0 50px 10px 50px;
 	}
 	#submissao h3{
 		color: rgb(5, 31, 49);

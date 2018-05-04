@@ -31,11 +31,11 @@
 						<div class="menuResp twelve columns">
 							<ul>
 								<li><a href="#hero">Inicio</a></li>
-								<li><a href="#submissao">Submissão</a></li>
+								<li><a href="#submissaoAncora">Submissão</a></li>
 								<li><a href="#comoChegar">Como Chegar</a></li>
 								<li><a href="#edicoesAnteriores">Edições Anteriores</a></li>
 								<li><a href="#contato">Contato</a></li>
-								<li><a href="#" style="color: rgb(127, 9, 6);" >Bragantequinha</a></li>
+								<li><a href="#" style="color: rgb(127, 9, 6);">Bragantequinha</a></li>
 							</ul>
 						</div>
 						<div id="acessMobile">
