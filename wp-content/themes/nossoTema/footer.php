@@ -2,18 +2,17 @@
 	<section>
 		<div class="row">
 			<!--  ****************** Informaçoes ********************************* -->
-			<div class="one-half column footerDivs" id="contato">
+			<div class="one-half column footerDivs" id="contato"  align="justify">
 				<h6 style="font-weight: bold;">CONTATO:</h6>
 				<ul style="padding-left: 20px;">
 					<li>
 						Bragança Paulista - SP, Brasil
 					</li>
 					<li>
-						ENDEREÇO: Av. Major Fernando Valle, 2013 - São Miguel - CEP: 12903-000
+						<address>ENDEREÇO: Av. Major Fernando Valle, 2013 - São Miguel - CEP: 12903-000</address>
 					</li>
 					<li>
 						E-MAIL: bragantec.ifsp@gmail.com
-						<span style="margin-left: 58px">braganca@ifsp.edu.br</span>
 					</li>
 					<li>
 						TELEFONE: (11) 98614-0930
@@ -55,7 +54,7 @@
 				<h6 style="font-weight: bold;">REDES SOCIAIS:</h6>
 				<div style="padding-left: 20px;">
 
-					<a href="https://www.facebook.com/bragantec/" target="_blank" style="text-decoration: none;" >
+					<a href="https://www.facebook.com/bragantec" target="_blank" style="text-decoration: none;" >
 						<div class="displayRedes">
 							<input type="image" id="face" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.PNG"  />
 							<div class="one-half column redeSocialNome">Facebook</div>
