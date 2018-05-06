@@ -1,16 +1,21 @@
 <?php get_header(); ?>
 <!-- Swiper -->
 <section>
-	<div class="swiper-container">
+	<div class="swiper-container sliderDesktop">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide inscricao bannerPc" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/inscricaoPc.jpeg')">
-				
 			</div>
 			<div class="swiper-slide social-media bannerPc" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/facePc.jpeg')">
-
 			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+		<div class="swiper-button-next"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </div>
+		<div class="swiper-button-prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div>
+	</div>
+	<div class="swiper-container sliderMobile">
+		<div class="swiper-wrapper">
 			<div class="swiper-slide inscricao bannerMobile" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/inscricoes.png')">
-				
+
 			</div>
 			<div class="swiper-slide social-media bannerMobile" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/rede_social.png')">
 
@@ -43,21 +48,21 @@
 	?>
 </div>
 <section>
-	<!-- SUBIMISSAO -->
+	<!-- SUBMISSAO -->
 	<div id="submissao">
 		<div class="row" >
 			<h3>Submissão de Projetos</h3>
 			<h4 style="text-align: center;" id="submissaoAncora"> Para submeter você deve fazer...</h4>
 			<br/>
 		</div>
-		<div class="row" >			
+		<div class="row" >
 			<div class="comoSubmeter one-half column" title="Clique para ver o template do plano de pesquisa">
 				<a href="https://docs.google.com/document/d/1HYHFE1LUOG3-LDTxmYp8nIpR8UZhFaqkdtUuXNeFKwE/edit" target="_blank"><div class="row">
 					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
 						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/documento.png" alt="Faça o Plano de Pesquisa de seu projeto"/>
 					</div>
 					<div class="row">
-						<h5 style="font-weight: bolder; margin-top: 15px;">Plano de Pesquisa! 
+						<h5 style="font-weight: bolder; margin-top: 15px;">Plano de Pesquisa!
 						</h5>
 					</div>
 				</div></a>
@@ -74,14 +79,14 @@
 			</div>
 		</div>
 
-		<div class="row">			
+		<div class="row">
 			<div class="comoSubmeter one-half column" title="Clique para ver como se faz o relatório">
 				<a href="https://docs.google.com/document/d/1mC2brGwsa6R1t9ttyHSoQuPSGeTSQ1DhBVt3uiWwBxQ/edit" target="_blank"><div class="row">
 					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
 						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/resumo.png" alt="Faça o relatório do seu projeto"/>
 					</div>
 					<div class="row">
-						<h5 style="font-weight: bolder; margin-top: 15px;">Relatório! 
+						<h5 style="font-weight: bolder; margin-top: 15px;">Relatório!
 						</h5>
 					</div>
 				</div></a>
@@ -97,7 +102,7 @@
 				</div></a>
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="comoSubmeter one-half column"  title="Clique para ver as especificações de um resumo">
 				<div id="resumoDiv" class="row">
@@ -112,9 +117,9 @@
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowDownR"/>
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowUpR"/>
 				</div>
-				
+
 				<div id="infosResumo" class="row"  align="justify">
-					Apenas um parágrafo exponha as informações relativas ao seu trabalho. 
+					Apenas um parágrafo exponha as informações relativas ao seu trabalho.
 					<br/>
 					<BLOCKQUOTE>
 					<br/><span style="color: darkgreen;">CONTEXTUALIZAÇÃO:</span> Identificar a grande área onde o trabalho está inserido e qual o problema/questões que o trabalho vai abordar.
