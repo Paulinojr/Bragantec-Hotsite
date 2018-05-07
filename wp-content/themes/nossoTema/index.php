@@ -69,6 +69,29 @@
 			<br/>
 		</div>
 		<div class="row" >
+			<div class="comoSubmeter one-half column"  title="Clique para acessar o link das Regras da Bragantec">
+				<a href="https://docs.google.com/document/d/1RBJ_HqOuuu_9c3D6kS6hGnXAAeAnNilIIcjnIqMkfds/edit" target="_blank"><div class="row">
+					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
+						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/rules.png" alt="Regras da Bragantec"/>
+					</div>
+					<div class="row">
+						<h5 style="font-weight: bolder; margin-top: 15px;">Regras Gerais da Bragantec</h5>
+					</div>
+				</div></a>
+			</div>
+			<div class="comoSubmeter one-half column"  title="Clique para acessar o link do formulario de cadastro">
+				<a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account" target="_blank"><div class="row">
+					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
+						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/form.png" alt="Faça o cadastro dos autores"/>
+					</div>
+					<div class="row">
+						<h5 style="font-weight: bolder; margin-top: 15px;">Cadastre-se como Autor</h5>
+					</div>
+				</div></a>
+			</div>
+		</div>
+
+		<div class="row">
 			<div class="comoSubmeter one-half column" title="Clique para ver o template do plano de pesquisa">
 				<a href="https://docs.google.com/document/d/1HYHFE1LUOG3-LDTxmYp8nIpR8UZhFaqkdtUuXNeFKwE/edit" target="_blank"><div class="row">
 					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
@@ -79,19 +102,6 @@
 					</div>
 				</div></a>
 			</div>
-			<div class="comoSubmeter one-half column"  title="Clique para acessar o link do formulario de cadastro">
-				<a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account" target="_blank"><div class="row">
-					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/form.png" alt="Faça o cadastro dos autores"/>
-					</div>
-					<div class="row">
-						<h5 style="font-weight: bolder; margin-top: 15px;">Faça o Cadastro como Autor</h5>
-					</div>
-				</div></a>
-			</div>
-		</div>
-
-		<div class="row">
 			<div class="comoSubmeter one-half column" title="Clique para ver como se faz o relatório">
 				<a href="https://docs.google.com/document/d/1mC2brGwsa6R1t9ttyHSoQuPSGeTSQ1DhBVt3uiWwBxQ/edit" target="_blank"><div class="row">
 					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
@@ -100,16 +110,6 @@
 					<div class="row">
 						<h5 style="font-weight: bolder; margin-top: 15px;">Relatório!
 						</h5>
-					</div>
-				</div></a>
-			</div>
-			<div class="comoSubmeter one-half column"  title="Clique para acessar o link das Regras da Bragantec">
-				<a href="https://docs.google.com/document/d/1RBJ_HqOuuu_9c3D6kS6hGnXAAeAnNilIIcjnIqMkfds/edit" target="_blank"><div class="row">
-					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/rules.png" alt="Regras da Bragantec"/>
-					</div>
-					<div class="row">
-						<h5 style="font-weight: bolder; margin-top: 15px;">Regras Gerais da Bragantec</h5>
 					</div>
 				</div></a>
 			</div>
@@ -161,7 +161,7 @@
 				<div class="row" id="infosVideo">
 						Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
 						<br/>
-						e poste na plataforma...
+						e poste no Youtube :D
 				</div>
 			</div>
 		</div>

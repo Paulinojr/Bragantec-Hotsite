@@ -177,7 +177,7 @@ body{
 	}
 
 	#submissao{
-		padding: 0 50px 10px 50px;
+		padding: 0 16px 0 16px;
 	}
 	#submissao h3{
 		color: rgb(5, 31, 49);
@@ -185,6 +185,7 @@ body{
 		text-align: center;
 		margin-top: 15px;
 		margin-bottom: 40px;
+		
 	}
 	/*Conteudo - Contato*/
 	#comoChegar{
