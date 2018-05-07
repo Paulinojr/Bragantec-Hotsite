@@ -1,4 +1,4 @@
-<h5 style="text-align: center">Para mais informações acesse esse <a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/about" target="_blank"> link </h5>
+<h5 style="text-align: center">Para mais informações acesse esse <a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/about" target="_blank"> link </a></h5>
 <footer>
 	<section>
 		<div class="row">

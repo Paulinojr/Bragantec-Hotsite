@@ -57,15 +57,14 @@
 						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/documento.png" alt="Faça o Plano de Pesquisa de seu projeto"/>
 					</div>
 					<div class="row">
-						<h5 style="font-weight: bolder; margin-top: 15px;">Plano de Pesquisa! 
-						</h5>
+						<h5 style="font-weight: bolder; margin-top: 15px;">Plano de Pesquisa! </h5>
 					</div>
 				</div></a>
 			</div>
 			<div class="comoSubmeter one-half column"  title="Clique para acessar o link do formulario de cadastro">
 				<a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account" target="_blank"><div class="row">
 					<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/formulario.png" alt="Faça o cadastro dos autores"/>
+						<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/form.png" alt="Faça o cadastro dos autores"/>
 					</div>
 					<div class="row">
 						<h5 style="font-weight: bolder; margin-top: 15px;">Faça o Cadastro como Autor</h5>
