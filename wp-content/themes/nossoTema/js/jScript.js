@@ -54,7 +54,7 @@ $(document).ready(function () {
             scrollTop: targetOffset - 200
         }, 500);
     });
-    
+
     /*RESUMO DIV*/
     $("#resumoDiv, #seta").click(function(){
         if($("#infosResumo").is(':visible')){
@@ -79,11 +79,23 @@ $(document).ready(function () {
             $('#arrowUpV').css({display: 'block'});
        }
    });
-    
+
     /* Carrossel */
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.sliderDesktop', {
         slidesPerView: 'auto',
         spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        }
+    });
+    var swiper = new Swiper('.sliderMobile', {
+        slidesPerView: 'auto',
         loop: true,
         pagination: {
             el: '.swiper-pagination',
