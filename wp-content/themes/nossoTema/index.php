@@ -29,24 +29,36 @@
 
 <div class="row noticias">
 	<h3>Notícias</h3>
+	<div class="twelve columns articles">
+		<?php
 
-	<?php
-	if (have_posts()):
-		while (have_posts()): the_post();
-			?>
-			<div class="three columns">
-				<h1>
-					<?php
-					the_title();
-					?>
-				</h1>
-				<p><?php the_excerpt();?></p>
+		$args = array(
+			'posts_per_page' => 4,
+			'orderby'        => 'most_recent'
+	  );
 
-			</div>
-			<?php
-		endwhile;
-	endif
-	?>
+		$custom_query = new WP_Query( $args );
+
+		if (have_posts()):
+			while ($custom_query->have_posts()): $custom_query->the_post();
+				?>
+				<div class="three columns article">
+					<img src="<?php echo get_the_post_thumbnail_url() ?>"
+					alt="post-thumbnail" class="article-image" />
+					<div class="article-text">
+						<h5 class="article-title">
+							<?php
+							the_title();
+							?>
+						</h5>
+						<p><?php the_excerpt();?></p>
+					</div>
+				</div>
+				<?php
+			endwhile;
+		endif
+		?>
+	</div>
 </div>
 <section>
 	<!-- SUBMISSAO -->
