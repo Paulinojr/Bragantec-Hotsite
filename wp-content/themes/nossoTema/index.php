@@ -28,6 +28,7 @@
 </section>
 
 <div class="row noticias">
+	<h3>Notícias</h3>
 
 	<?php
 	if (have_posts()):

@@ -96,7 +96,6 @@ $(document).ready(function () {
     });
     var swiper = new Swiper('.sliderMobile', {
         slidesPerView: 'auto',
-        spaceBetween: 30,
         loop: true,
         pagination: {
             el: '.swiper-pagination',
