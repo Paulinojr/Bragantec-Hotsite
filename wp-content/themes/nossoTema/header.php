@@ -17,7 +17,7 @@
 <body>
 	<header>
 		<section id="hero">
-			<div>				
+			<div>
 				<img id="imgBanner" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner.png" alt="Banner da Bragantec"/>
 			</div>
 
@@ -30,12 +30,13 @@
 						<input type="checkbox"  id="toggle"/>
 						<div class="menuResp twelve columns">
 							<ul>
-								<li><a href="#hero">Inicio</a></li>
-								<li><a href="#submissaoAncora">Submissão</a></li>
-								<li><a href="#comoChegar">Como Chegar</a></li>
-								<li><a href="#edicoesAnteriores">Edições Anteriores</a></li>
-								<li><a href="#contato">Contato</a></li>
-								<li><a href="#" style="color: rgb(127, 9, 6);">Bragantequinha</a></li>
+								<li><a href="<?php echo is_home() ?  "#hero" :  get_home_url();?>">Inicio</a></li>
+								<li><a href="<?php echo is_home() ?  "#noticias" :  get_home_url()."#noticias";?>">Noticias</a></li>
+								<li><a href="<?php echo is_home() ?  "#submissaoAncora" :  get_home_url()."#submissaoAncora";?>">Submissão</a></li>
+								<li><a href="<?php echo is_home() ?  "#comoChegar" :  get_home_url()."#comoChegar";?>">Como Chegar</a></li>
+								<li><a href="<?php echo is_home() ?  "#edicoesAnteriores" :  get_home_url()."#edicoesAnteriores";?>">Edições Anteriores</a></li>
+								<li><a href="<?php echo is_home() ?  "#contato" :  get_home_url()."#contato";?>">Contato</a></li>
+								<li><a href="<?php echo get_site_url(); ?>/bragantequinha" style="color: rgb(127, 9, 6);">Bragantequinha</a></li>
 							</ul>
 						</div>
 						<div id="acessMobile">
@@ -45,7 +46,7 @@
 							<div id="dFM">
 								A-
 							</div>
-						</div> 
+						</div>
 					</div>
 					<div id="acessibilidadeLetra" style="margin-top: 6px;" class="conteiner two columns">
 						<div id="aF">
@@ -58,7 +59,7 @@
 				</nav>
 			</div>
 			<div>
-				
+
 				<img id="imgMobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/perfil bragantec.jpg" alt="Banner da Bragantec"/>
 			</div>
 		</section>

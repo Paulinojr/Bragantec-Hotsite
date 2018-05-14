@@ -26,21 +26,21 @@
 		<div class="swiper-button-prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div>
 	</div>
 </section>
+<section id="noticias">
+	<div class="row noticias" >
+		<h3>Notícias</h3>
+		<div class="twelve columns articles"  >
+			<?php
 
-<div class="row noticias">
-	<h3>Notícias</h3>
-	<div class="twelve columns articles">
-		<?php
+			$args = array(
+				'posts_per_page' => 4,
+				'orderby'        => 'most_recent'
+			);
 
-		$args = array(
-			'posts_per_page' => 4,
-			'orderby'        => 'most_recent'
-	  );
+			$custom_query = new WP_Query( $args );
 
-		$custom_query = new WP_Query( $args );
-
-		if (have_posts()):
-			while ($custom_query->have_posts()): $custom_query->the_post();
+			if (have_posts()):
+				while ($custom_query->have_posts()): $custom_query->the_post();
 				?>
 				<div class="three columns article">
 					<img src="<?php echo get_the_post_thumbnail_url() ?>"
@@ -56,10 +56,11 @@
 				</div>
 				<?php
 			endwhile;
-		endif
-		?>
+			endif
+			?>
+		</div>
 	</div>
-</div>
+</section>
 <section>
 	<!-- SUBMISSAO -->
 	<div id="submissao">
@@ -134,15 +135,15 @@
 					Apenas um parágrafo exponha as informações relativas ao seu trabalho.
 					<br/>
 					<BLOCKQUOTE>
-					<br/><span style="color: darkgreen;">CONTEXTUALIZAÇÃO:</span> Identificar a grande área onde o trabalho está inserido e qual o problema/questões que o trabalho vai abordar.
-					<br/><br/><span style="color: darkgreen;">OBJETIVOS:</span> Qual o propósito do trabalho? Como ele ira responder as questões colocadas na contextualização?
-					<br/><br/>
-					<span style="color: darkgreen;">METODOLOGIA:</span> Explicar, de maneira geral, de que forma o trabalho foi realizado
-					<br/><br/><span style="color: darkgreen;">RESULTADOS:</span> Mostrar de maneira clara e detalhada os principais resultados alcançados
-					<br/><br/><span style="color: darkgreen;">CONCLUSÃO:</span> Como os resultados alcançados podem contribuir para a evolução da ciência?
-					<br/><br/>
-					<span style="color: red;">NÃO</span> divida em topicos. <span style="color: green"> FAÇA</span> em forma corrida.
-				</BLOCKQUOTE>
+						<br/><span style="color: darkgreen;">CONTEXTUALIZAÇÃO:</span> Identificar a grande área onde o trabalho está inserido e qual o problema/questões que o trabalho vai abordar.
+						<br/><br/><span style="color: darkgreen;">OBJETIVOS:</span> Qual o propósito do trabalho? Como ele ira responder as questões colocadas na contextualização?
+						<br/><br/>
+						<span style="color: darkgreen;">METODOLOGIA:</span> Explicar, de maneira geral, de que forma o trabalho foi realizado
+						<br/><br/><span style="color: darkgreen;">RESULTADOS:</span> Mostrar de maneira clara e detalhada os principais resultados alcançados
+						<br/><br/><span style="color: darkgreen;">CONCLUSÃO:</span> Como os resultados alcançados podem contribuir para a evolução da ciência?
+						<br/><br/>
+						<span style="color: red;">NÃO</span> divida em topicos. <span style="color: green"> FAÇA</span> em forma corrida.
+					</BLOCKQUOTE>
 				</div>
 			</div>
 			<div class="comoSubmeter one-half column"  title="VIDEO? QUE VIDEO? Clique para saber mais">
@@ -159,13 +160,13 @@
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique fechar o conteudo" width="30" height="30" id="arrowUpV"/>
 				</div>
 				<div class="row" id="infosVideo">
-						Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
-						<br/>
-						e poste no Youtube :D
+					Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
+					<br/>
+					e poste no Youtube :D
 				</div>
 			</div>
 		</div>
-			<h5 style="margin-top: 20px" align="justify"> Resumão: O resumo e o vídeo e o plano de pesquisa serão julgados antes da Bragantec para dizer se seu projeto foi ou não aceito. Já o relatório deve estar impresso no dia da apresentação para os avaliadores da feira observarem o desenvolver do projeto  </h5>
+		<h5 style="margin-top: 20px" align="justify"> Resumão: O resumo e o vídeo e o plano de pesquisa serão julgados antes da Bragantec para dizer se seu projeto foi ou não aceito. Já o relatório deve estar impresso no dia da apresentação para os avaliadores da feira observarem o desenvolver do projeto  </h5>
 	</div>
 
 	<!-- Como chegar -->
