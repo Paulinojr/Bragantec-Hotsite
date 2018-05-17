@@ -51,7 +51,7 @@ $(document).ready(function () {
         //variável id com o valor refentente ao link clicado
         var id = $(this).attr('href'), targetOffset = $(id).offset().top;
         $('html, body').animate({
-            scrollTop: targetOffset - 200
+            scrollTop: targetOffset - 100
         }, 500);
     });
 
@@ -106,4 +106,15 @@ $(document).ready(function () {
             prevEl: '.swiper-button-prev',
         }
     });
+    //Menu Bragantequinha
+    var header = document.getElementById("menuBragqn");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+
 });

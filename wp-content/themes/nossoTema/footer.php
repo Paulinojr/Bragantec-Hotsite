@@ -1,5 +1,5 @@
-<h5 style="text-align: center">Para mais informações acesse esse <a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/about" target="_blank"> link </a></h5>
-<footer>
+
+<footer style="margin:0;">
 	<section>
 		<div class="row">
 			<!--  ****************** Informaçoes ********************************* -->
@@ -76,7 +76,9 @@
 	</section>
 </footer>
 <div style="background-color: rgb(170, 9, 6);">
-	<br/>
+	<h5 style="text-align: right; color: white;margin:0 15px 0 0; font-size: 20px;">Para mais informações acesse esse
+		<a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/about" target="_blank"> link </a>
+	</h5>
 </div>
 
 <!-- Links -->
