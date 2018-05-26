@@ -26,41 +26,7 @@
 			<div class="swiper-button-prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div>
 		</div>
 	</section>
-	<section id="noticias">
-		<div class="row noticias" >
-			<h3>Notícias</h3>
-			<div class="twelve columns articles"  >
-				<?php
 
-				$args = array(
-					'posts_per_page' => 4,
-					'orderby'        => 'most_recent'
-				);
-
-				$custom_query = new WP_Query( $args );
-
-				if (have_posts()):
-					while ($custom_query->have_posts()): $custom_query->the_post();
-					?>
-					<div class="three columns article">
-						<img src="<?php echo get_the_post_thumbnail_url() ?>"
-						alt="post-thumbnail" class="article-image" />
-						<div class="article-text">
-							<h5 class="article-title">
-								<?php
-								the_title();
-								?>
-							</h5>
-							<p><?php the_excerpt();?></p>
-						</div>
-					</div>
-					<?php
-				endwhile;
-				endif
-				?>
-			</div>
-		</div>
-	</section>
 	<section>
 		<!-- SUBMISSAO -->
 		<div id="submissao">

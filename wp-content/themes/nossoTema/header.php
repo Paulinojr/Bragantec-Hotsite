@@ -31,7 +31,6 @@
 						<div class="menuResp twelve columns">
 							<ul>
 								<li><a href="<?php echo is_home() ?  "#hero" :  get_home_url();?>">Inicio</a></li>
-								<li><a href="<?php echo is_home() ?  "#noticias" :  get_home_url()."#noticias";?>">Noticias</a></li>
 								<li><a href="<?php echo is_home() ?  "#submissaoAncora" :  get_home_url()."#submissaoAncora";?>">Submissão</a></li>
 								<li><a href="<?php echo is_home() ?  "#comoChegar" :  get_home_url()."#comoChegar";?>">Como Chegar</a></li>
 								<li><a href="<?php echo is_home() ?  "#edicoesAnteriores" :  get_home_url()."#edicoesAnteriores";?>">Edições Anteriores</a></li>
