@@ -30,13 +30,24 @@
 						<input type="checkbox"  id="toggle"/>
 						<div class="menuResp twelve columns">
 							<ul>
-								<li><a href="<?php echo is_home() ?  "#hero" :  get_home_url();?>">Inicio</a></li>
-								
-								<li><a href="<?php echo is_home() ?  "#submissaoAncora" :  get_home_url()."#submissaoAncora";?>">Submissão</a></li>
-								<li><a href="<?php echo is_home() ?  "#comoChegar" :  get_home_url()."#comoChegar";?>">Como Chegar</a></li>
-								<li><a href="<?php echo is_home() ?  "#edicoesAnteriores" :  get_home_url()."#edicoesAnteriores";?>">Edições Anteriores</a></li>
-								<li><a href="<?php echo is_home() ?  "#contato" :  get_home_url()."#contato";?>">Contato</a></li>
-								<li><a href="<?php echo get_site_url(); ?>/bragantequinha" style="color: rgb(127, 9, 6);">Bragantequinha</a></li>
+								<li>
+									<a href="<?php echo is_home() ?  "#hero" :  get_home_url();?>">Inicio</a>
+								</li>
+								<li>
+									<a href="<?php echo is_home() ?  "#participarAncora" :  get_home_url()."#participarAncora";?>">Como Participar</a>
+								</li>
+								<li>
+									<a href="<?php echo is_home() ?  "#comoChegar" :  get_home_url()."#comoChegar";?>">Como Chegar</a>
+								</li>
+								<li>
+									<a href="<?php echo is_home() ?  "#edicoesAnteriores" :  get_home_url()."#edicoesAnteriores";?>">Edições Anteriores</a>
+								</li>
+								<li>
+									<a href="<?php echo is_home() ?  "#contato" :  get_home_url()."#contato";?>">Contato</a>
+								</li>
+								<li>
+									<a href="<?php echo get_site_url(); ?>/bragantequinha" style="color: rgb(127, 9, 6);">Bragantequinha</a>
+								</li>
 							</ul>
 						</div>
 						<div id="acessMobile">

@@ -144,7 +144,7 @@ body{
 	.comoSubmeter{
 		cursor: pointer;
 	}
-	#infosResumo, #infosVideo{
+	#infosResumo, #infosVideo, #infosPlano{
 		background-color: white;
 		display: none;
 		padding: 20px;
@@ -155,16 +155,15 @@ body{
 		float: right;
 	}
 
-	#submissao{
+	#participar{
 		padding: 0 16px 0 16px;
 	}
-	#submissao h3, #titulo{
+	#participar h3, #participar h5, #titulo{
 		color: rgb(5, 31, 49);
 		font-weight: 500;
 		text-align: center;
-		margin-top: 15px;
+		margin-top: 5px;
 		margin-bottom: 40px;
-
 	}
 	/*Conteudo - Contato*/
 	#comoChegar{

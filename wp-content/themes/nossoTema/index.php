@@ -62,13 +62,65 @@
 		</div>
 	</section> -->
 	<section>
-		<!-- SUBMISSAO -->
-		<div id="submissao">
-			<div class="row" >
-				<h3>Submissão de Projetos</h3>
-				<h4 style="text-align: center;" id="submissaoAncora"> Para submeter você deve fazer...</h4>
+		<div id="participar">
+			<div class="row">
+				<br/>
+				<h3> Como participar?</h3>
+				<h5  id="participarAncora"> Primeiramente confira as <a>regras</a> e então <br/> siga 3 passos (Inscriçao, desenvolvimento e apresentação)</h4>
 				<br/>
 			</div>
+			<hr>
+			<div class="row">
+				<h3 style="text-align: left"> 1. Inscrição</h3>
+			</div>
+			<div class="row">
+				<!--PLANO DE PESQUISA -->
+				<div class="comoSubmeter one-half column" title="Clique para ver o template do plano de pesquisa">
+					
+					<div class="row" id="planoDiv">
+						<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
+							<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/documento.png" alt="Faça o Plano de Pesquisa de seu projeto"/>
+						</div>
+						<div class="row">
+							<h5 style="font-weight: bolder; margin-top: 15px;">Plano de Pesquisa! </h5>
+						</div>
+					</div>
+					<div id="otaseta3" class="row" style="border-top: solid lightgrey 1px;">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowDownP" style="float: right"/>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique fechar o conteudo" width="30" height="30" id="arrowUpP"  style="float: right"/>
+					</div>
+					<div class="row" id="infosPlano">
+						Para fazer um plano de pesquisa use o <a style="color: blue" href="https://docs.google.com/document/d/1HYHFE1LUOG3-LDTxmYp8nIpR8UZhFaqkdtUuXNeFKwE/edit" target="_blank">
+						template</a>, o plano de pesquisa é basicamente a teoria de seu projeto.
+					</div>
+
+				</div>	
+				<div class="comoSubmeter one-half column"  title="VIDEO? QUE VIDEO? Clique para saber mais">
+					<div id="videoDiv" class="row">
+						<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
+							<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/video.png" alt="Faça um video explicando seu projeto"/>
+						</div>
+						<div class="row">
+							<h5 style="font-weight: bolder; margin-top: 15px; float: left;">Video do projeto!</h5>
+						</div>
+					</div>
+					<div id="otaseta" class="row" style="border-top: solid lightgrey 1px;">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowDownV"/>
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique fechar o conteudo" width="30" height="30" id="arrowUpV"/>
+					</div>
+					<div class="row" id="infosVideo">
+						Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
+						<br/>
+						e poste no Youtube :D
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<!-- SUBMISSAO -->
+		<div id="submissao">
+
 			<div class="row" >
 				<!--REGRAS GERAIS -->
 				<div class="comoSubmeter one-half column"  title="Clique para acessar o link das Regras da Bragantec">
@@ -93,31 +145,8 @@
 					</div></a>
 				</div>
 			</div>
-			<div class="row">
-				<!--PLANO DE PESQUISA -->
-				<div class="comoSubmeter one-half column" title="Clique para ver o template do plano de pesquisa">
-					<a href="https://docs.google.com/document/d/1HYHFE1LUOG3-LDTxmYp8nIpR8UZhFaqkdtUuXNeFKwE/edit" target="_blank"><div class="row">
-						<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-							<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/documento.png" alt="Faça o Plano de Pesquisa de seu projeto"/>
-						</div>
-						<div class="row">
-							<h5 style="font-weight: bolder; margin-top: 15px;">Plano de Pesquisa! </h5>
-						</div>
-					</div></a>
-				</div>
-				<!--RELATORIO -->
-				<div class="comoSubmeter one-half column" title="Clique para ver como se faz o relatório">
-					<a href="https://docs.google.com/document/d/1mC2brGwsa6R1t9ttyHSoQuPSGeTSQ1DhBVt3uiWwBxQ/edit" target="_blank"><div class="row">
-						<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-							<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/resumo.png" alt="Faça o relatório do seu projeto"/>
-						</div>
-						<div class="row">
-							<h5 style="font-weight: bolder; margin-top: 15px;">Relatório!
-							</h5>
-						</div>
-					</div></a>
-				</div>
-			</div>
+
+
 			<div class="row">
 				<!--RESUMO -->
 				<div class="comoSubmeter one-half column"  title="Clique para ver as especificações de um resumo">
@@ -149,26 +178,22 @@
 						</BLOCKQUOTE>
 					</div>
 				</div>
-				<div class="comoSubmeter one-half column"  title="VIDEO? QUE VIDEO? Clique para saber mais">
-					<div id="videoDiv" class="row">
+
+				<!--RELATORIO -->
+				<div class="comoSubmeter one-half column" title="Clique para ver como se faz o relatório">
+					<a href="https://docs.google.com/document/d/1mC2brGwsa6R1t9ttyHSoQuPSGeTSQ1DhBVt3uiWwBxQ/edit" target="_blank"><div class="row">
 						<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-							<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/video.png" alt="Faça um video explicando seu projeto"/>
+							<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/resumo.png" alt="Faça o relatório do seu projeto"/>
 						</div>
 						<div class="row">
-							<h5 style="font-weight: bolder; margin-top: 15px; float: left;">Video do projeto!</h5>
+							<h5 style="font-weight: bolder; margin-top: 15px;">Relatório!
+							</h5>
 						</div>
-					</div>
-					<div id="otaseta" class="row" style="border-top: solid lightgrey 1px;">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowDownV"/>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique fechar o conteudo" width="30" height="30" id="arrowUpV"/>
-					</div>
-					<div class="row" id="infosVideo">
-						Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
-						<br/>
-						e poste no Youtube :D
-					</div>
+					</div></a>
 				</div>
 			</div>
+
+
 			<h5 style="margin-top: 20px" align="justify"> Resumão: O resumo e o vídeo e o plano de pesquisa serão julgados antes da Bragantec para dizer se seu projeto foi ou não aceito. Já o relatório deve estar impresso no dia da apresentação para os avaliadores da feira observarem o desenvolver do projeto  </h5>
 		</div>
 

@@ -4,6 +4,7 @@ $(document).ready(function () {
     var img;
     $('#arrowUpR').css({display: 'none'});
     $('#arrowUpV').css({display: 'none'});
+    $('#arrowUpP').css({display: 'none'});
 
     /***********Aumentar e diminuir letra**************/
     $("html").css({fontSize: 10});
@@ -79,6 +80,18 @@ $(document).ready(function () {
             $('#arrowUpV').css({display: 'block'});
        }
    });
+    $("#planoDiv, #otaseta3").click(function(){
+        if($("#infosPlano").is(':visible')){
+            $("#infosPlano").fadeOut();
+            $('#arrowUpP').css({display: 'none'});
+            $('#arrowDownP').css({display: 'block'});
+        }else{
+           $("#infosPlano").fadeIn();
+            $('#arrowDownP').css({display: 'none'});
+            $('#arrowUpP').css({display: 'block'});
+       }
+    });
+    
 
     /* Carrossel */
     var swiper = new Swiper('.sliderDesktop', {
