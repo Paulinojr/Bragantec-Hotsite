@@ -5,25 +5,19 @@
 			<div class="swiper-wrapper">
 				<div class="swiper-slide inscricao bannerPc" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/inscricaoPc.jpeg')">
 				</div>
-				<div class="swiper-slide social-media bannerPc" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/facePc.jpeg')">
-				</div>
 			</div>
-			<div class="swiper-pagination"></div>
+<!-- 			<div class="swiper-pagination"></div>
 			<div class="swiper-button-next"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </div>
-			<div class="swiper-button-prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div>
+			<div class="swiper-button-prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div> -->
 		</div>
 		<div class="swiper-container sliderMobile">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide inscricao bannerMobile" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/inscricoes.png')">
-
-				</div>
-				<div class="swiper-slide social-media bannerMobile" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/rede_social.png')">
-
 				</div>
 			</div>
-			<div class="swiper-pagination"></div>
+<!-- 			<div class="swiper-pagination"></div>
 			<div class="swiper-button-next"> <i class="fa fa-chevron-right" aria-hidden="true"></i> </div>
-			<div class="swiper-button-prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div>
+			<div class="swiper-button-prev"> <i class="fa fa-chevron-left" aria-hidden="true"></i> </div> -->
 		</div>
 	</section>
 <!-- 	<section id="noticias">
