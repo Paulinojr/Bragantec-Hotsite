@@ -26,27 +26,22 @@
 			<div class="one-half column footerDivs">
 				<div class="footerDivs desenvolvedores">
 					<h6 style="font-weight: bold">DESENVOLVEDORES:</h6>
-					<div class="row" style="padding-left: 20px;">
+					<div class="row" style="padding-left: 10px;">
 
 						<div class="imgDesenvolvedores" style="position: relative;">
-
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bia.jpg"  width="90" height="90" alt="Imagem da desenvolvedora Beatriz Miranda"/>
 							<div class="middle">Beatriz Miranda</div>
 
 						</div>
 
 						<div class="imgDesenvolvedores" style="position: relative;">
-
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/laura.jpg" width="90" height="90" alt="Imagem da desenvolvedora Laura Chaile"/>
 							<div class="middle">Laura Chaile</div>
-
 						</div>
 
 						<div class="imgDesenvolvedores" style="position: relative;">
-
 							<img src="<?php echo get_stylesheet_directory_uri();?>/img/paulino.jpeg" width="90" height="90" alt="Imagem do desenvolvedor Paulino Junior"/>
 							<div class="middle">Paulino Junior</div>
-
 						</div>
 
 					</div>
