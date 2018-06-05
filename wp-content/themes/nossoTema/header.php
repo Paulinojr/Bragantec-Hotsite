@@ -5,9 +5,10 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/normalize.css" type="text/css"/>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/skeleton.css" type="text/css"/>
+	<!-- Carrossel -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.min.css">
-
+	<!-- Icones -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<meta charset="utf-8"/>
@@ -17,8 +18,11 @@
 <body>
 	<header>
 		<section id="hero">
-			<div>
-				<img id="imgBanner" src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner.png" alt="Banner da Bragantec"/>
+			<div id="bannerInicial">
+				<h5>Espaço para banner inicial</h5>
+				<div id="setaDown">
+					<i class="fa fa-arrow-circle-down" style="font-size:36px;"></i>
+				</div>
 			</div>
 
 			<div id="menu" class="band navigation row">

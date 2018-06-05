@@ -35,7 +35,7 @@ $(document).ready(function () {
                     nav.removeClass("menuFixo");
                 }
             }else{
-                if ($(this).scrollTop() > 235) {
+                if ($(this).scrollTop() > 475) {
                     nav.addClass("menuFixo");
                 } else {
                     nav.removeClass("menuFixo");
@@ -91,7 +91,7 @@ $(document).ready(function () {
             $('#arrowUpP').css({display: 'block'});
        }
     });
-    
+
 
     /* Carrossel */
     var swiper = new Swiper('.sliderDesktop', {

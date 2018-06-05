@@ -83,8 +83,8 @@
 						</div>
 					</div>
 					<div id="seta" class="row" style="border-top: solid lightgrey 1px;">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowDownR"/>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowUpR"/>
+						<i class="fa fa-angle-down" style="font-size:36px;" id="arrowDownR"></i>
+						<i class="fa fa-angle-up" style="font-size:36px;" id="arrowUpR"></i>
 					</div>
 
 					<div id="infosResumo" class="row"  align="justify">
@@ -113,14 +113,14 @@
 						</div>
 					</div>
 					<div id="otaseta3" class="row" style="border-top: solid lightgrey 1px;">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowDownP" style="float: right"/>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique fechar o conteudo" width="30" height="30" id="arrowUpP"  style="float: right"/>
+						<i class="fa fa-angle-down" style="font-size:36px;" id="arrowDownP"></i>
+						<i class="fa fa-angle-up" style="font-size:36px;" id="arrowUpP"></i>
 					</div>
 					<div class="row" id="infosPlano">
 						Para fazer um plano de pesquisa use o <a style="color: blue" href="https://docs.google.com/document/d/1HYHFE1LUOG3-LDTxmYp8nIpR8UZhFaqkdtUuXNeFKwE/edit" target="_blank">
 						template</a>, o plano de pesquisa é basicamente a teoria de seu projeto.
 					</div>
-				</div>	
+				</div>
 			</div>
 
 			<div class="row" >
@@ -136,8 +136,8 @@
 						</div>
 					</div>
 					<div id="otaseta" class="row" style="border-top: solid lightgrey 1px;">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.png" alt="clique para ver o conteudo" width="30" height="30" id="arrowDownV"/>
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrowUp.png" alt="clique fechar o conteudo" width="30" height="30" id="arrowUpV"/>
+						<i class="fa fa-angle-down" style="font-size:36px;" id="arrowDownV"></i>
+						<i class="fa fa-angle-up" style="font-size:36px;" id="arrowUpV"></i>
 					</div>
 					<div class="row" id="infosVideo">
 						Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
@@ -188,7 +188,7 @@
 				</h3>
 			</div>
 			<div class="row">
-				
+
 			</div>
 		</section>
 		<section>
