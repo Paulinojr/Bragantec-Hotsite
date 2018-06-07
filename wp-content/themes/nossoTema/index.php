@@ -1,6 +1,6 @@
 	<?php get_header(); ?>
 	<!-- Swiper -->
-	<section>
+	<section id="content">
 		<div class="swiper-container sliderDesktop">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide inscricao bannerPc" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/inscricaoPc.jpeg')">
