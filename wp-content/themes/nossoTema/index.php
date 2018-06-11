@@ -63,14 +63,16 @@
 					<br/>
 				</div>
 			</div>
+			<div class="container">
+					<ul id="stepbstep" class="progressbar">
+					 		<li class="liStep active">Inscrição</li>
+							<li class="liStep" >Desenvolvimento</li>
+							<li class="liStep" >Apresentação</li>
+	 				</ul>
+		  </div>
 		</section>
 		<section style="padding: 0 10px 0 10px">
 			<!-- INCRIÇÃO -->
-			<div class="row">
-				<h3 style="text-align: center">
-					<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/inscrição.PNG" alt="Faça a inscrição de seu projeto"/>
-				</h3>
-			</div>
 			<div class="row">
 				<!--RESUMO -->
 				<div class="comoSubmeter one-half column"  title="Clique para ver as especificações de um resumo">
