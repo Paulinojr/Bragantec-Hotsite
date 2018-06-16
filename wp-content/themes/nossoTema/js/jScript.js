@@ -5,8 +5,10 @@ $(document).ready(function () {
     $('#arrowUpR').css({display: 'none'});
     $('#arrowUpV').css({display: 'none'});
     $('#arrowUpP').css({display: 'none'});
+    $("#desDiv").fadeOut();
+    $("#apreDiv").fadeOut();
 
-    /***********Aumentar e diminuir letra**************/
+    /***********Aumentar e diminuir letra*************a*/
     $("html").css({fontSize: 10});
 
     $("#aF, #aFM").click(function () {
@@ -52,7 +54,7 @@ $(document).ready(function () {
         //variável id com o valor refentente ao link clicado
         var id = $(this).attr('href'), targetOffset = $(id).offset().top;
         $('html, body').animate({
-            scrollTop: targetOffset - 145
+            scrollTop: targetOffset - 200
         }, 500);
     });
 
@@ -91,6 +93,8 @@ $(document).ready(function () {
             $('#arrowUpP').css({display: 'block'});
        }
     });
+
+    //step by step intro desenvolvimento e apresentaçao
     var header = document.getElementById("stepbstep");
     var li = header.getElementsByClassName("liStep");
     for (var i = 0; i < li.length; i++) {
@@ -100,7 +104,23 @@ $(document).ready(function () {
         this.className += " active";
       });
     };
-
+    $("#stepbstep li").click(function(){
+      if ($("#intro").hasClass("active")) {
+        $("#introDiv").fadeIn();
+        $("#desDiv").fadeOut();
+        $("#apreDiv").fadeOut();
+      }
+      if ($("#des").hasClass("active")) {
+        $("#desDiv").fadeIn();
+        $("#introDiv").fadeOut();
+        $("#apreDiv").fadeOut();
+      }
+      if ($("#apre").hasClass("active")) {
+        $("#apreDiv").fadeIn();
+        $("#introDiv").fadeOut();
+        $("#desDiv").fadeOut();
+      }
+    });
 
     /* Carrossel */
     var swiper = new Swiper('.sliderDesktop', {

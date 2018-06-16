@@ -29,6 +29,7 @@
 					<div class="row" style="padding-left: 10px;">
 
 						<div class="imgDesenvolvedores" style="position: relative;">
+
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bia.jpg"  width="90" height="90" alt="Imagem da desenvolvedora Beatriz Miranda"/>
 							<div class="middle">Beatriz Miranda</div>
 
@@ -48,22 +49,20 @@
 				</div>
 				<!--********************** Redes sociais no Footer ************************* -->
 				<h6 style="font-weight: bold;">REDES SOCIAIS:</h6>
+				<h6 style="font-weight: bold;">REDES SOCIAIS:</h6>
 				<div style="padding-left: 20px;">
 
-					<a href="https://www.facebook.com/bragantec" target="_blank" style="text-decoration: none;" >
-						<div class="displayRedes">
-							<input type="image" id="face" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/face.PNG"  />
-							<div class="one-half column redeSocialNome">Facebook</div>
-						</div>
-					</a>
+					<div class="displayRedes">
+						<a href="https://www.facebook.com/bragantec" target="_blank" style="text-decoration: none;" >
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</div>
 
-
-					<a href="https://www.instagram.com/bragantec/?hl=en" target="_blank" style="text-decoration: none;">
-						<div class="displayRedes">
-							<input type="image" id="insta" class="redeSocial one-half column" style="width: 32px;" name="Face" src="<?php echo get_stylesheet_directory_uri(); ?>/img/instagram.png"/>
-							<div class="one-half column redeSocialNome">Instagram</div>
-						</div>
-					</a>
+					<div class="displayRedes">
+						<a href="https://www.instagram.com/bragantec/?hl=en" target="_blank" style="text-decoration: none;">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

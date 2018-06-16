@@ -9,7 +9,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/css/swiper.min.css">
 <!-- Icones -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +29,7 @@
 				</a>
 			</div>
 
+
 			<div id="menu" class="band navigation row">
 				<nav class="conteiner primeira">
 					<div class="ten columns">
@@ -40,11 +43,11 @@
 									<a href="<?php echo is_home() ?  "#hero" :  get_home_url();?>">Inicio</a>
 								</li>
 								<li>
-									<a href="<?php echo is_home() ?  "#participarAncora" :  get_home_url()."#participarAncora";?>">Como Participar</a>
+									<a href="<?php echo is_home() ?  "#participarAncora" :  get_home_url()."#participarAncora";?>">Como Participar?</a>
 								</li>
 								<li>
-									<a href="<?php echo is_home() ?  "#comoChegar" :  get_home_url()."#comoChegar";?>">Como Chegar</a>
-								</li>
+									<a href="<?php echo is_home() ?  "#comoChegar" :  get_home_url()."#comoChegar";?>">Como Chegar?</a>
+						 		</li>
 								<li>
 									<a href="<?php echo is_home() ?  "#edicoesAnteriores" :  get_home_url()."#edicoesAnteriores";?>">Edições Anteriores</a>
 								</li>
@@ -81,4 +84,3 @@
 			</div>
 		</section>
 	</header>
-	
