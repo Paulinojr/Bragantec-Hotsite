@@ -76,10 +76,7 @@
 			<h3 style="text-align:center; font-weight: bolder;">Introdução</h3>
 			<br/>
 			<div class="row" >
-				<div class="one columns" style="background-color: lightgrey; text-align: center;">
-					<i class="fa fa-angle-left" ></i>
-				</div>
-				<div class="row ten columns" style="padding: 0 30px 0 30px; ">
+				<div class="row twelve columns" style="padding: 0 30px 0 30px; ">
 					<!--RESUMO -->
 					<div class="comoSubmeter one-half column"  title="Clique para ver as especificações de um resumo">
 						<div id="resumoDiv" class="row">
@@ -111,7 +108,7 @@
 						</div>
 					</div>
 					<!--PLANO DE PESQUISA -->
-					<div class="comoSubmeter one-half column" title="Clique para ver o template do plano de pesquisa">
+					<div class="comoSubmeter one-half column" title="Clique para ver o template do plano de pesquisa" >
 						<div class="row" id="planoDiv">
 							<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
 								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/documento.png" alt="Faça o Plano de Pesquisa de seu projeto"/>
@@ -125,7 +122,7 @@
 							<i class="fa fa-angle-up" style="font-size:36px;" id="arrowUpP"></i>
 						</div>
 						<div class="row" id="infosPlano">
-							Para fazer um plano de pesquisa use o <a style="color: blue" href="https://docs.google.com/document/d/1HYHFE1LUOG3-LDTxmYp8nIpR8UZhFaqkdtUuXNeFKwE/edit" target="_blank">
+							Para fazer um plano de pesquisa use o <a style="color: blue" href="<?php echo get_stylesheet_directory_uri(); ?>/download/formularioSubmissao2018.docx" download>
 							template</a>, o plano de pesquisa é basicamente a teoria de seu projeto.
 						</div>
 					</div>
@@ -166,9 +163,6 @@
 					</div>
 					</div>
 				</div>
-				<div class="one column" style="background-color: lightgrey; text-align: center;">
-					<i class="fa fa-angle-right"></i>
-				</div>
 		</div>
 			<br/>
 		</section>
@@ -177,11 +171,11 @@
 			<h3 style="text-align:center; font-weight: bolder;">Desenvolvimento</h3>
 			</br>
 			<div class="row">
-				<div class="one column"></div>
-				<div class="row eleven columns">
+				<div class="row twelve columns">
 					<!--RELATORIO -->
 					<div class="comoSubmeter one-half column" title="Clique para ver como se faz o relatório">
-						<a href="https://docs.google.com/document/d/1mC2brGwsa6R1t9ttyHSoQuPSGeTSQ1DhBVt3uiWwBxQ/edit" target="_blank"><div class="row">
+						<a href="<?php echo get_stylesheet_directory_uri(); ?>/download/diretrizesRelatorio.docx" download>
+							<div class="row">
 							<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
 								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/resumo.png" alt="Faça o relatório do seu projeto"/>
 							</div>
@@ -189,10 +183,10 @@
 								<h5 style="font-weight: bolder; margin-top: 15px;">Relatório!
 								</h5>
 							</div>
-						</div></a>
+						</div>
+					</a>
 					</div>
 				</div>
-				<div class="one column"></div>
 			</div>
 		</section>
 		<section style="padding: 0 30px 0 30px" id="apreDiv">
@@ -201,8 +195,8 @@
 			</br>
 			<div class="row">
 				<!--RELATORIO -->
-				<div class="one column"></div>
-				<div class="row eleven columns">
+
+				<div class="row twelve columns">
 					<div class="comoSubmeter one-half column" title="Clique para ver como se faz o relatório">
 
 					</div>
@@ -210,7 +204,6 @@
 
 					</div>
 				</div>
-				<div class="one column"></div>
 			</div>
 		</section>
 		<section>

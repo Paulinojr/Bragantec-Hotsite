@@ -227,6 +227,11 @@ body{
 		display: none;
 		padding: 20px;
 		font-size: 17px;
+		z-index:1;
+		position: absolute;
+		max-width:570px;
+		border: solid black 1px ;
+		border-top: none;
 	}
 
 	#arrowUpR, #arrowUpV, #arrowDownR, #arrowDownV, #arrowUpP, #arrowDownP{
