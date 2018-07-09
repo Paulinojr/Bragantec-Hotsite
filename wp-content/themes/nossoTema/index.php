@@ -1,6 +1,6 @@
 	<?php get_header(); ?>
 	<!-- Swiper -->
-	<section id="content">
+	<section>
 		<div class="swiper-container sliderDesktop">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide inscricao bannerPc" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/inscricaoPc.jpeg')">
@@ -55,7 +55,7 @@
 			</div>
 		</div>	</section> -->
 		<section id="participar">
-			<div>
+			<div  id="content">
 				<div class="row">
 					<br/><br/>
 					<h3> Como participar ?</h3>
@@ -76,7 +76,7 @@
 			<h3 style="text-align:center; font-weight: bolder;">Introdução</h3>
 			<br/>
 			<div class="row" >
-				<div class="row twelve columns" style="padding: 0 30px 0 30px; ">
+				<div class="row twelve columns" style="padding: 0 20px 0 20px; ">
 					<!--RESUMO -->
 					<div class="comoSubmeter one-half column"  title="Clique para ver as especificações de um resumo">
 						<div id="resumoDiv" class="row">
@@ -130,40 +130,52 @@
 
 					<div class="row" >
 
-					<!-- VIDEO DO PROJETO -->
-					<div class="comoSubmeter one-half column"  title="VIDEO? QUE VIDEO? Clique para saber mais">
-						<div id="videoDiv" class="row">
-							<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/video.png" alt="Faça um video explicando seu projeto"/>
+						<!-- VIDEO DO PROJETO -->
+						<div class="comoSubmeter one-half column"  title="VIDEO? QUE VIDEO? Clique para saber mais">
+							<div id="videoDiv" class="row">
+								<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
+									<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/video.png" alt="Faça um video explicando seu projeto"/>
+								</div>
+								<div class="row">
+									<h5 style="font-weight: bolder; margin-top: 15px; float: left;">Video do projeto!</h5>
+								</div>
 							</div>
-							<div class="row">
-								<h5 style="font-weight: bolder; margin-top: 15px; float: left;">Video do projeto!</h5>
+							<div id="otaseta" class="row" style="border-top: solid lightgrey 1px;">
+								<i class="fa fa-angle-down" style="font-size:36px;" id="arrowDownV"></i>
+								<i class="fa fa-angle-up" style="font-size:36px;" id="arrowUpV"></i>
+							</div>
+							<div class="row" id="infosVideo">
+								Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
+								<br/>
+								e poste no Youtube :D
 							</div>
 						</div>
-						<div id="otaseta" class="row" style="border-top: solid lightgrey 1px;">
-							<i class="fa fa-angle-down" style="font-size:36px;" id="arrowDownV"></i>
-							<i class="fa fa-angle-up" style="font-size:36px;" id="arrowUpV"></i>
-						</div>
-						<div class="row" id="infosVideo">
-							Faça um vídeo explicando seu trabalho. Deixe a imaginação fluir  : )
-							<br/>
-							e poste no Youtube :D
-						</div>
-					</div>
-					<!-- CADASTRE-SE -->
-					<div class="comoSubmeter one-half column"  title="Clique para acessar o link do formulario de cadastro">
-						<a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account" target="_blank"><div class="row">
-							<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
-								<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/form.png" alt="Faça o cadastro dos autores"/>
+
+						<!-- CADASTRE-SE -->
+						<div class="comoSubmeter one-half column"  title="Clique para acessar o link do formulario de cadastro">
+							<div id="cadDiv" class="row">
+								<div class="imgSubmissao" style="padding-left: 9px; margin-right: 5px;">
+									<img  src="<?php echo get_stylesheet_directory_uri(); ?>/img/form.png" alt="Faça o cadastro dos autores"/>
+								</div>
+								<div class="row">
+									<h5 style="font-weight: bolder; margin-top: 15px;">Cadastre-se como Autor</h5>
+								</div>
 							</div>
-							<div class="row">
-								<h5 style="font-weight: bolder; margin-top: 15px;">Cadastre-se como Autor</h5>
+							<div id="otaseta4" class="row" style="border-top: solid lightgrey 1px;">
+								<i class="fa fa-angle-down" style="float:right; font-size:36px;" id="arrowDownC"></i>
+								<i class="fa fa-angle-up" style="float:right; font-size:36px;" id="arrowUpC"></i>
 							</div>
-						</div></a>
-					</div>
+							<div class="row" id="infosCad">
+								Já tem um cadastro? Clique <a style="color: blue" href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account?existingUser=1" target="_blank">aqui</a>.
+								Ou senão, crie seu cadastro clicando <a style="color: blue" href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account" target="_blank">aqui</a>.
+							</div>
+						</div>
+
+
+
 					</div>
 				</div>
-		</div>
+			</div>
 			<br/>
 		</section>
 		<section style="padding: 0 30px 0 10px" id="desDiv">
@@ -189,7 +201,7 @@
 				</div>
 			</div>
 		</section>
-		<section style="padding: 0 30px 0 30px" id="apreDiv">
+		<section style="padding: 0 20px 0 20px" id="apreDiv">
 			<!-- APRESENTAÇÃO -->
 			<h3 style="text-align:center; font-weight: bolder;">Apresentação</h3>
 			</br>

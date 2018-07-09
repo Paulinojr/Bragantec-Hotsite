@@ -222,16 +222,18 @@ body{
 		text-decoration: none;
 		color: rgb(5, 31, 49);
 	}
-	#infosResumo, #infosVideo, #infosPlano{
+	#infosResumo, #infosVideo, #infosPlano, #infosCad{
 		background-color: white;
 		display: none;
 		padding: 20px;
 		font-size: 17px;
 		z-index:1;
 		position: absolute;
-		max-width:570px;
+		max-width:580px;
+		width: 100%;
 		border: solid black 1px ;
 		border-top: none;
+		margin-left: 0;
 	}
 
 	#arrowUpR, #arrowUpV, #arrowDownR, #arrowDownV, #arrowUpP, #arrowDownP{
@@ -530,6 +532,9 @@ body{
 	}
 	#toggle:checked + .menuResp{
 		display: block;
+	}
+	#infosResumo, #infosVideo, #infosPlano, #infosCad{
+		max-width:253px;
 	}
 }
 

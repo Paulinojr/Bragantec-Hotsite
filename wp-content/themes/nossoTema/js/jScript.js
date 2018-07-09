@@ -5,6 +5,7 @@ $(document).ready(function () {
     $('#arrowUpR').css({display: 'none'});
     $('#arrowUpV').css({display: 'none'});
     $('#arrowUpP').css({display: 'none'});
+    $('#arrowUpC').css({display: 'none'});
     $("#desDiv").fadeOut();
     $("#apreDiv").fadeOut();
 
@@ -91,6 +92,17 @@ $(document).ready(function () {
            $("#infosPlano").fadeIn();
             $('#arrowDownP').css({display: 'none'});
             $('#arrowUpP').css({display: 'block'});
+       }
+    });
+    $("#cadDiv, #otaseta4").click(function(){
+        if($("#infosCad").is(':visible')){
+            $("#infosCad").fadeOut();
+            $('#arrowUpC').css({display: 'none'});
+            $('#arrowDownC').css({display: 'block'});
+        }else{
+           $("#infosCad").fadeIn();
+            $('#arrowDownC').css({display: 'none'});
+            $('#arrowUpC').css({display: 'block'});
        }
     });
 
