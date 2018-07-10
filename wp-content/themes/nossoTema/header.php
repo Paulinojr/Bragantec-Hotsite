@@ -80,7 +80,7 @@
 			</div>
 			<div>
 
-				<img id="imgMobile" src="<?php echo get_stylesheet_directory_uri(); ?>/img/perfil bragantec.jpg" alt="Banner da Bragantec"/>
+		
 			</div>
 		</section>
 	</header>

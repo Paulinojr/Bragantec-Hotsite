@@ -73,7 +73,7 @@
 		</section>
 		<section  id="introDiv">
 			<!-- INCRIÇÃO -->
-			<h3 style="text-align:center; font-weight: bolder;">Introdução</h3>
+			<h3 style="text-align:center; font-weight: bolder;">Incrição</h3>
 			<br/>
 			<div class="row" >
 				<div class="row twelve columns" style="padding: 0 20px 0 20px; ">

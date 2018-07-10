@@ -49,7 +49,6 @@
 				</div>
 				<!--********************** Redes sociais no Footer ************************* -->
 				<h6 style="font-weight: bold;">REDES SOCIAIS:</h6>
-				<h6 style="font-weight: bold;">REDES SOCIAIS:</h6>
 				<div style="padding-left: 20px;">
 
 					<div class="displayRedes">
