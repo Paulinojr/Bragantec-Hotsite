@@ -1,19 +1,26 @@
 <?php   /*Template Name: Bragantequinha*/ get_header(); ?>
 <section style="background-color: #ffff80;">
 <div class="row">
-<br/>
-<h2 id="titulo" style="font-weight: bolder;">Bragantequinha</h2>
-
-
-<nav id="menuBragqn" class="conteiner segunda">
-  <ul>
-    <button class="btn">Fotos</button>
-    <button class="btn active">Ganhadores</button>
-    <button class="btn">Inscrição</button>
-  </ul>
-</nav>
-<div class="containerBragantequinha"  style="height: 400px;"></div>
-<div class="containerBragantequinha" style="height: 400px; background-color:  red !important ;"></div>
+  <br/>
+  <h2 id="titulo" style="font-weight: bolder;">Bragantequinha</h2>
+  <h4 style="text-align:center;">As crianças também podem participar!!</h4>
+  <div class="row" id="imagensBragantequinha">
+    <div class="one-third column">
+      <a class="fancy" rel="bragantequinha" href="<?php echo get_stylesheet_directory_uri(); ?>/img/bragantequinha (1).jpg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bragantequinha (1).jpg" alt="Imagens das crianças na bragantequinha" />
+      </a>
+    </div>
+    <div class="one-third column">
+      <a class="fancy" rel="bragantequinha" href="<?php echo get_stylesheet_directory_uri(); ?>/img/bragantequinha (2).jpg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bragantequinha (2).jpg" alt="Imagens das crianças na bragantequinha" />
+      </a>
+    </div>
+    <div class="one-third column">
+      <a class="fancy" rel="bragantequinha" href="<?php echo get_stylesheet_directory_uri(); ?>/img/bragantequinha (3).jpg">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bragantequinha (3).jpg" alt="Imagens das crianças na bragantequinha" />
+      </a>
+    </div>
+  </div>
 </div>
 </section>
 <?php get_footer(); ?>

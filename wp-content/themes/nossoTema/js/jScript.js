@@ -2,10 +2,8 @@
 $(document).ready(function () {
     var fonte = 10;
     var img;
-    $('#arrowUpR').css({display: 'none'});
-    $('#arrowUpV').css({display: 'none'});
-    $('#arrowUpP').css({display: 'none'});
-    $('#arrowUpC').css({display: 'none'});
+    $("[id*='arrowUp']").css({display: 'none'});
+
     $("#desDiv").fadeOut();
     $("#apreDiv").fadeOut();
 
@@ -59,7 +57,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    /*RESUMO DIV*/
+    /*DROPDOWN DIVS*/
     $("#resumoDiv, #seta").click(function(){
         if($("#infosResumo").is(':visible')){
             $("#infosResumo").fadeOut();
@@ -103,6 +101,17 @@ $(document).ready(function () {
            $("#infosCad").fadeIn();
             $('#arrowDownC').css({display: 'none'});
             $('#arrowUpC').css({display: 'block'});
+       }
+    });
+    $("#diarioDiv, #seta5").click(function(){
+        if($("#infosDiario").is(':visible')){
+            $("#infosDiario").fadeOut();
+            $('#arrowUpD').css({display: 'none'});
+            $('#arrowDownD').css({display: 'block'});
+        }else{
+           $("#infosDiario").fadeIn();
+            $('#arrowDownD').css({display: 'none'});
+            $('#arrowUpD').css({display: 'block'});
        }
     });
 
@@ -160,14 +169,4 @@ $(document).ready(function () {
             prevEl: '.swiper-button-prev',
         }
     });
-    //Menu Bragantequinha
-    var header = document.getElementById("menuBragqn");
-    var btns = header.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    };
 });
