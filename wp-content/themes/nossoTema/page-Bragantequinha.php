@@ -1,5 +1,5 @@
 <?php   /*Template Name: Bragantequinha*/ get_header(); ?>
-<section style="background-color: #ffff80;">
+<section style="background-color: #ffff80; margin-top: 50px;">
 <div class="row">
   <br/>
   <h2 id="titulo" style="font-weight: bolder;">Bragantequinha</h2>

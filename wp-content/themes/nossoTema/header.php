@@ -21,7 +21,7 @@
 	<body>
 	  <header>
 	      <section id="hero">
-	          <div id="bannerInicial">
+	          <div id="bannerInicial" style="display:none;">
 	              <h5>Espaço para banner inicial</h5>
 								<div id="conteinerInicial">
 								 	<a href="#content">

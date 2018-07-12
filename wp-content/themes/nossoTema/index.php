@@ -54,7 +54,7 @@
 				?>
 			</div>
 		</div>	</section> -->
-    <section id="participar">
+    <section id="participar" class="homepage">
         <div id="content">
             <div class="row">
                 <br/>

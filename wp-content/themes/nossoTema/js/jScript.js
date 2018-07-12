@@ -8,6 +8,13 @@ $(document).ready(function () {
     $("#desDiv").fadeOut();
     $("#apreDiv").fadeOut();
 
+    if( $('section.homepage').length ){
+      $('#bannerInicial').css({display: "block"});
+    }else{
+      var nav = $('#menu');
+      nav.addClass("menuFixo");
+    }
+
     /***********Aumentar e diminuir letra*************a*/
     $("html").css({fontSize: 10});
 
@@ -27,24 +34,26 @@ $(document).ready(function () {
 
     /**************************************************/
     /*Menu fixo apartir da imagem*/
-    $(function(){
-        var nav = $('#menu');
-        $(window).scroll(function () {
-            if ($(window).width() < 1024) {
-                if ($(this).scrollTop() > 81) {
-                    nav.addClass("menuFixo");
-                } else {
-                    nav.removeClass("menuFixo");
-                }
-            }else{
-                if ($(this).scrollTop() > 475) {
-                    nav.addClass("menuFixo");
-                } else {
-                    nav.removeClass("menuFixo");
-                }
-            }
-        });
-    });
+    if( $('section.homepage').length ){
+      $(function(){
+          var nav = $('#menu');
+          $(window).scroll(function () {
+              if ($(window).width() < 1024) {
+                  if ($(this).scrollTop() > 81) {
+                      nav.addClass("menuFixo");
+                  } else {
+                      nav.removeClass("menuFixo");
+                  }
+              }else{
+                  if ($(this).scrollTop() > 475) {
+                      nav.addClass("menuFixo");
+                  } else {
+                      nav.removeClass("menuFixo");
+                  }
+              }
+          });
+      });
+    }
 
     /**************************************************/
     /*link interno no menu, scroll leve*/

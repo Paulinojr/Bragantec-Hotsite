@@ -1,5 +1,5 @@
 <?php   /*Template Name: edicoesAnteriores*/ get_header(); ?>
-<section style="margin-bottom: 10px;">
+<section style="margin-bottom: 10px; margin-top: 100px;">
 <div class="main">
 
   <div id="myBtnContainer">
