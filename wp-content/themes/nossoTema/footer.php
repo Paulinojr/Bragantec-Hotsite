@@ -76,7 +76,7 @@
 		<!-- Links -->
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery-3.1.0.min.js"></script>
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/jScript.js"></script>
-		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/fancyboxJs.js"></script>
+		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/anteriorJs.js"></script>
 		<!-- Fancybox -->
 		<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
@@ -86,5 +86,6 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/js/swiper.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.5/js/swiper.min.js.map"></script>
+		
 	</body>
 </html>

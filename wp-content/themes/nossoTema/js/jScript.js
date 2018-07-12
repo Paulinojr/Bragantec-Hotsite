@@ -2,6 +2,7 @@
 $(document).ready(function () {
     var fonte = 10;
     var img;
+    $(".fancy").fancybox();
     $("[id*='arrowUp']").css({display: 'none'});
 
     $("#desDiv").fadeOut();

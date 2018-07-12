@@ -1,5 +1,7 @@
 /* Theme Name: Nosso tema */
-
+*{
+  box-sizing: border-box;
+}
 body {
     margin: 0;
     min-width: 340px;
@@ -16,6 +18,7 @@ body {
         height: 90vh;
         background-image: url(img/bannerInicial.png);
     }
+
     #setaDown {
         border: solid white 1px;
         color: white;
@@ -28,13 +31,21 @@ body {
         width: 225px;
         text-align: center;
         padding: 10px;
-        margin-left: 42%;
         margin-top: 31%;
         border-radius: 5px;
         background-color: #1f7a1f;
     }
     #setaDown:hover {
         box-shadow: 4px 4px 10px rgb(5, 31, 49);
+    }
+    #conteinerInicial{
+      width: 98.8vw;
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position:absolute;
+      bottom:140px;
     }
     .conteudo {
         border: solid black 1px;
@@ -79,7 +90,7 @@ body {
         top: 0;
         z-index: 99;
         background-color: white;
-        width: 95%;
+        width: 100%;
         border-bottom: solid black 1px;
     }
     label {
@@ -272,10 +283,10 @@ body {
     #edicoesAnteriores h4 {
         text-align: center;
     }
-    #imagensBragantequinha{
+    .imagensBragantequinha{
       padding:20px;
     }
-    #imagensBragantequinha div img{
+    .imagensBragantequinha div img{
       border-radius: 20px;
       border: solid white 3px;
       widht: 260px;
@@ -456,8 +467,13 @@ body {
 /* PARA MOBILE */
 
 @media only screen and (max-width: 768px) {
+
     #setaDown {
         margin-left: 20%;
+    }
+    #conteinerInicial{
+      width: 73vw;
+
     }
     .sliderDesktop {
         display: none;

@@ -170,9 +170,9 @@
                             <i class="fa fa-angle-up" id="arrowUpC"></i>
                         </div>
                         <div class="row" id="infosCad">
-                          Já tem um cadastro? Clique <a style="color: blue" href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account?existingUser=1" target="_blank">aqui</a>.
-                          <br/>Ou senão, crie seu cadastro clicando <a style="color: blue" href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account" target="_blank">aqui</a>.
-                      </div>
+                            Já tem um cadastro? Clique <a style="color: blue" href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account?existingUser=1" target="_blank">aqui</a>.
+                            <br/>Ou senão, crie seu cadastro clicando <a style="color: blue" href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/user/account" target="_blank">aqui</a>.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -224,8 +224,8 @@
                         <i class="fa fa-angle-up" id="arrowUpD"></i>
                     </div>
                     <div class="row" id="infosDiario">
-                        Durante o desenvolvimento do projeto, os alunos devem anotar o que fizeram para o projeto. Expecificando o dia.<br/>
-                        O diário pode ser personalizado e ele será avaliado no dia da feira.
+                        Durante o desenvolvimento do projeto, os alunos devem anotar o que fizeram para o projeto. Expecificando o dia.
+                        <br/> O diário pode ser personalizado e ele será avaliado no dia da feira.
                     </div>
                 </div>
             </div>
@@ -269,8 +269,13 @@
         <div id="edicoesAnteriores" class="row">
             <div class="row">
                 <h3>Edições Anteriores</h3>
-                <p/>
-                <h4>Em breve aqui!</h4>
+                <div id="conteiner">
+                  <a href="<?php echo get_site_url(); ?>/edicoesAnteriores" style="text-decoration:none">
+                    <div id="buttonFotos" style="text-align:center;">
+                      Fotos
+                    </div>
+                  </a>
+                </div>
             </div>
         </div>
     </section>

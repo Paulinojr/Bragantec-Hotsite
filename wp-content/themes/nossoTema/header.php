@@ -3,6 +3,7 @@
 	<head>
 	  <title>Bragantec</title>
 	  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css" />
+		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/styleEdicoes.css" type="text/css" />
 	  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/normalize.css" type="text/css" />
 	  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/skeleton.css" type="text/css" />
 	  <!-- Carrossel -->
@@ -22,11 +23,14 @@
 	      <section id="hero">
 	          <div id="bannerInicial">
 	              <h5>Espaço para banner inicial</h5>
-	              <a href="#content">
+								<div id="conteinerInicial">
+								 	<a href="#content">
 	                  <div id="setaDown" class="one-third column">
 	                      Quero me inscrever!
 	                  </div>
-	              </a>
+	              	</a>
+								</div>
+
 	          </div>
 
 	          <div id="menu" class="band navigation row">
