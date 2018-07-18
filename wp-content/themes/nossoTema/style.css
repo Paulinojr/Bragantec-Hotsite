@@ -310,7 +310,8 @@ body {
     .footerDivs ul li {
         border-bottom: 1px solid white;
         list-style: none;
-        padding: 10px;
+        padding: 10px 0px;
+
     }
     @media only screen and (min-width: 768px) {
         #contato {
@@ -359,9 +360,9 @@ body {
     }
     .imgDesenvolvedores img{
         border-radius: 50%;
-        opacity: 0.7;
+        opacity: 0.8;
         transition: .10s ease;
-        border: solid white 1px;
+        border: solid white 3px;
     }
 
     .imgDesenvolvedores img:hover {

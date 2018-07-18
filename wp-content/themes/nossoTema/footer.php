@@ -3,8 +3,11 @@
 		        <div class="row">
 		            <!--  ****************** Informaçoes ********************************* -->
 		            <div class="one-half column footerDivs" id="contato" align="justify">
-		                <h6 style="font-weight: bold;">CONTATO:</h6>
-		                <ul style="padding-left: 20px;">
+									<div class="footerDivs row">
+										<div class="row">
+												<h6 style="font-weight: bold;">CONTATO:</h6>
+										</div>
+		                <ul>
 		                    <li>
 		                        Bragança Paulista - SP, Brasil
 		                    </li>
@@ -19,7 +22,7 @@
 		                    </li>
 
 		                </ul>
-
+									</div>
 		            </div>
 		            <!--********************** Desenvolvadores Footer ************************* -->
 		            <div class="one-half column footerDivs">
@@ -61,7 +64,7 @@
 
 		    </section>
 		</footer>
-		<div style="background-color: rgb(170, 9, 6);">
+		<div style="background-color: rgb(127, 9, 6);">
 		    <h5 style="text-align: right; color: white;margin:0 15px 0 0; font-size: 20px;">Para mais informações acesse esse
 				<a href="http://bra.ifsp.edu.br/eventos/index.php/bragantec/viiibragantec/about" target="_blank"> link </a>
 			</h5>
