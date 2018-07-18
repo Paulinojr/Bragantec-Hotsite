@@ -20,16 +20,16 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'homestead');
+define('DB_NAME', 'bragantec-hotsite');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'homestead');
+define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'secret');
+define('DB_PASSWORD', '');
 
 /** Nome do host do MySQL */
-define('DB_HOST', 'localhost:32773');
+define('DB_HOST', 'localhost');
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8');

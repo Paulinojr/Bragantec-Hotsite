@@ -28,7 +28,7 @@
 		            <div class="one-half column footerDivs">
 		                <div class="footerDivs row">
 		                    <h6 style="font-weight: bold">DESENVOLVEDORES:</h6>
-		                    <div class="row">
+		                    <div class="row" id="desenvolvedoresPc">
 		                        <div class="imgDesenvolvedores one-third column">
 		                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bia.jpg" width="90" height="90" alt="Imagem da desenvolvedora Beatriz Miranda" />
 		                            <div class="middle">Beatriz Miranda</div>
@@ -41,6 +41,16 @@
 		                            <img src="<?php echo get_stylesheet_directory_uri();?>/img/paulino.jpeg" width="90" height="90" alt="Imagem do desenvolvedor Paulino Junior" />
 		                            <div class="middle">Paulino Junior</div>
 		                        </div>
+		                    </div>
+												<div class="row" id="desenvolvedoresMobile" >
+		                        <div class="imgDesenvolvedores" style="padding-left: 12px;">
+		                            <img style="margin-left: 10px;" src="<?php echo get_stylesheet_directory_uri(); ?>/img/bia.jpg" width="90" height="90" alt="Imagem da desenvolvedora Beatriz Miranda" />
+
+																<img style="margin-left: 15px;" src="<?php echo get_stylesheet_directory_uri(); ?>/img/laura.jpg" width="90" height="90" alt="Imagem da desenvolvedora Laura Chaile" />
+
+																<img style="margin-left: 15px;" src="<?php echo get_stylesheet_directory_uri();?>/img/paulino.jpeg" width="90" height="90" alt="Imagem do desenvolvedor Paulino Junior"/>
+																<div>Beatriz Miranda  <span style="margin-left: 11px;" >Laura Chaile</span> <span style="margin-left: 13px;" > Paulino Junior</span></div>
+													 </div>
 		                    </div>
 		                </div>
 		                <!--********************** Redes sociais no Footer ************************* -->
