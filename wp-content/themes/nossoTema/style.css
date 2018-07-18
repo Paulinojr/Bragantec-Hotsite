@@ -10,7 +10,6 @@ body {
     /* Firefox will set width as auto */
 }
 
-@media only screen and (max-width: 1600px) {
     header {
         width: 100%;
     }
@@ -364,12 +363,12 @@ body {
         transition: .10s ease;
         border: solid white 1px;
     }
-    
+
     .imgDesenvolvedores img:hover {
         opacity: 1;
     }
 
-    
+
     /* Carrosel */
     .swiper-container {
         width: 100%;
@@ -426,7 +425,7 @@ body {
     .bannerPc {
         display: block;
     }
-}
+
 
 @media only screen and (min-width: 769px) {
     .sliderMobile {
