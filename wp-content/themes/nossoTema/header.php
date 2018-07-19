@@ -3,7 +3,7 @@
 	<head>
 	  <title>Bragantec</title>
 	  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/style.css" type="text/css" />
-		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/styleEdicoes.css" type="text/css" />
+		
 	  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/normalize.css" type="text/css" />
 	  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/Skeleton/css/skeleton.css" type="text/css" />
 	  <!-- Carrossel -->
