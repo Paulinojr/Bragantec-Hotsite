@@ -4,71 +4,56 @@
 
   <div id="myBtnContainer">
     <button class="btn active" onclick="filterSelection('all')"> Todas as fotos </button>
-    <button class="btn" onclick="filterSelection('2011')"> 2011 </button>
-    <button class="btn" onclick="filterSelection('2015')"> 2015</button>
-    <button class="btn" onclick="filterSelection('2016')"> 2016</button>
-    <button class="btn" onclick="filterSelection('2017')"> 2017</button>
+    <?php
+      $tags = get_terms(array(
+        'taxonomy' => 'tag'
+      ));
+
+      foreach($tags as $single_tag):
+    ?>
+      <button class="btn" onclick="filterSelection('<?php echo $single_tag->name; ?>')"> <?php echo $single_tag->name; ?> </button>
+    <?php endforeach; ?>
   </div>
+
+    <?php
+      $args = array(
+        'post_type' => 'edicoesAnteriores'
+      );
+      $the_query = new WP_Query( $args );
+    ?>
 
   <!-- Portfolio Gallery Grid -->
   <div class="galeria row">
-    <div class="coluna 2011 one-third column">
-      <div class="divImEdicoes">
-        <div class="tamImagens">
-          <a class="fancy" rel="edicoes" href="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/2011-bragantec.jpg">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/2011-bragantec.jpg" alt="bragantec 2011" style="width:100%;">
-          </a>
-        </div>
-        <h4>Primeira Bragantec</h4>
-      </div>
-    </div>
-    <div class="coluna 2017 one-third column">
-      <div class="divImEdicoes">
-        <div class="tamImagens">
-          <a class="fancy" rel="edicoes" href="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/2017-bragantec.jpg">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/2017-bragantec.jpg" alt="Feira lotada em 2017" style="width:100%">
-          </a>
-        </div>
-        <h4>Feira lotada</h4>
-      </div>
-    </div>
+    <?php if ( $the_query->have_posts() ) : ?>
+    <?php while ( $the_query->have_posts() ) : $the_query->the_post();
 
-    <div class="coluna 2016 one-third column">
-      <div class="divImEdicoes">
-        <div class="tamImagens">
-          <a class="fancy" rel="edicoes" href="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/bolero2016.jpg">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/bolero2016.jpg" alt="Abertura em 2016" style="width:100%">
-          </a>
-        </div>
-        <h4>Abertura</h4>
-      </div>
-    </div>
+      $post_id = get_the_ID();
 
+      $post_tags = get_the_terms($post_id, 'tag');
 
-    <div class="coluna 2016 one-third column" style="margin-left: 0px;">
-      <div class="divImEdicoes">
-        <div class="tamImagens">
-          <a class="fancy" rel="edicoes" href="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/bragantc2016-Salto.jpg">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/bragantc2016-Salto.jpg" alt="Estudantes de Salto em 2016" style="width:100%">
-          </a>
-        </div>
-        <h4>Estudantes de Salto</h4>
-      </div>
-    </div>
-    <div class="coluna 2015 one-third column">
-      <div class="divImEdicoes">
-        <div class="tamImagens">
-          <a class="fancy" rel="edicoes" href="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/2015-bragantec.jpg">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/edicoesAnteriores/2015-bragantec.jpg" alt="bragantec 2015" style="width:100%">
-          </a>
-        </div>
-        <h4>Estantes</h4>
-      </div>
-    </div>
+      foreach($post_tags as $tags){
+        $tag .= " ". $tags->name . " ";
+      }
 
+    ?>
+      <div class="coluna <?php echo $tag ?> one-third column">
+        <div class="divImEdicoes">
+          <div class="tamImagens">
+            <a class="fancy" rel="edicoes" href="<?php echo get_the_post_thumbnail_url(); ?>">
+              <div style="background-image: url(<?php echo get_the_post_thumbnail_url(); ?>)" alt="bragantec <?php echo get_the_tags(); ?>" class="edicoesImagem"> </div>
+            </a>
+          </div>
+          <h4><?php the_title(); ?></h4>
+        </div>
+      </div>
+      <?php $tag = " "; ?>
+
+    <?php endwhile; ?>
+    <?php endif; ?>
+</div>
 
   <!-- END GRID -->
-</div>
+
 
 <!-- END MAIN -->
 </div>
